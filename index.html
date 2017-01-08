@@ -51,77 +51,99 @@
 <body>
 	<nav class="navbar navbar-inverse">
 	  <div class="container">
-	    <div class="navbar-header">
+
+	    <div class="navbar-header col-sm-2">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>                        
 	      </button>
-	      <a class="navbar-brand" href="#">Portfolio</a>
+	      <a class="navbar-brand " href="#">
+	      	  <img src="pics/techcore_logo.svg" alt="ЛОГО" id="logo">
+	      </a>
 	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
+
+	    <div class="col-sm-7"></div>
+
+	    <div class="collapse navbar-collapse col-sm-3" id="myNavbar">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Home</a></li>
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Gallery</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li class="active"><a href="#">Главная</a></li>
+	        <li><a href="#">Продукция</a></li>
+	        <li><a href="#">Контакты</a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	        <li><a href="#">Ru <span class="glyphicon glyphicon-log-in"></span></a></li>
 	      </ul>
 	    </div>
 	  </div>
 	</nav>
 
 	<div class="jumbotron">
-	  <div class="container text-center">
-	    <h1>My Portfolio</h1>      
-	    <p>Some text that represents "Me"...</p>
+	  <div class="container text-center index_description">
+	    <h1>Научно-производственное объединение</h1>      
+	    <p>Молекулярные технологии</p>
 	  </div>
 	</div>
 	  
-	<div class="container-fluid bg-3 text-center">    
-	  <h3>Some of my Work</h3><br>
+	<div class="container bg-3 index_info-block">    
 	  <div class="row">
-	    <div class="col-sm-3">
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-2">
 	    </div>
-	    <div class="col-sm-3"> 
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-8"> 
+	      <h3>О компании</h3>
+	      <br>
+	      <p>
+	      	АО «НПО «ТехноКор», основанное в 1997 году, разрабатывает и производит молекулярные накопители энергии емкостного типа, средства запуска двигателей внутреннего сгорания (в том числе газотурбинных двигателей), а также средства обеспечения предпускового подогрева
+	      </p>
 	    </div>
-	    <div class="col-sm-3"> 
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-	    </div>
-	    <div class="col-sm-3">
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-2">
 	    </div>
 	  </div>
-	</div><br>
+	</div>
 
-	<div class="container-fluid bg-3 text-center">    
+	<div class="container bg-3 index_info-block">    
 	  <div class="row">
-	    <div class="col-sm-3">
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-2">
 	    </div>
-	    <div class="col-sm-3"> 
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-8"> 
+	      <h3>Гарантии Качества</h3>
+	      <br>
+	      <p>
+	      	Основываясь на многолетний опыт, продукция компании ТехноКор гарантирует длительный срок службы, высокую производительность и несравненное качество. Продукция проходит ряд испытаний, тестируется в самых жестких климатических условиях и подвергается различным химическим и физическим воздействиями.
+	      </p>
 	    </div>
-	    <div class="col-sm-3"> 
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-	    </div>
-	    <div class="col-sm-3">
-	      <p>Some text..</p>
-	      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+	    <div class="col-sm-2">
 	    </div>
 	  </div>
-	</div><br><br>
+	</div>
+	
+	<div class="container bg-3 index_info-block">    
+	  <div class="row">
+	    <div class="col-sm-2">
+	    </div>
+	    <div class="col-sm-8"> 
+	      <h3>Сферы деятельности</h3>
+	      <br>
+	      <p>
+	      	АО «НПО «ТехноКор» осуществляет деятельность по следующим направлениям:
+	      	<ul>
+	      		<li>исследования и разработка активных и конструкционных материалов</li>
+	      		<li>математическое моделирование</li>
+	      		<li>проектирование как МНЭ, так и систем на их основе</li>
+	      		<li>разработка технологических процессов</li>
+	      		<li>проведение полного цикла НИОКР</li>
+	      		<li>маркетинг</li>
+	      		<li>производство опытных и серийных изделий</li>
+	      		<li>гарантийное сопровождение изделий в эксплуатации</li>
+	      	</ul>
+	      </p>
+	    </div>
+	    <div class="col-sm-2">
+	    </div>
+	  </div>
+	</div>
+
+	<br>
 
 	<footer class="container-fluid text-center">
 	  <p>Footer Text</p>

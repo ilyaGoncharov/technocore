@@ -74,4 +74,46 @@ html, body {
     font-weight: normal;
 } */
 
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
 
+	background: #fff;
+	border: none;
+
+	height: 60px;
+
+}
+
+.navbar-nav {
+}
+
+#logo {
+	width: 110px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: #0F1F3B;
+	font-size: 17px;
+	font-weight: 600;
+    background-color: transparent;
+    border-bottom: 3px solid #F9D477;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #0F1F3B;
+	font-weight: 400;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
