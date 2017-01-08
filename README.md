@@ -1,2 +1,2 @@
-# technocore
-Technocore[site] test repository.
+#technocore
+
