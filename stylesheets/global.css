@@ -82,14 +82,19 @@ html, body {
 	background: #fff;
 	border: none;
 
-	height: 60px;
-
 }
 
-.navbar-nav {
+.navbar-brand {
+	padding: 10px 10px;
+}
+
+#myNavbar {
+	float: right;
+	margin: 0;
 }
 
 #logo {
+	margin: 0;
 	width: 110px;
 }
 

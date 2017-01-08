@@ -2,9 +2,15 @@ h1 {
 	font-size: 35px !important;
 }
 
+h3 {
+	width: auto;
+	border-bottom: 3px solid #F9D477;
+}
+
 ul {
 	margin-left: 40px ;
 }
+
 
 .jumbotron {
 	height: 450px;
