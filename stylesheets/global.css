@@ -122,3 +122,36 @@ footer {
 	background-color: #f2f2f2;
 	padding: 25px;
 }
+
+.index_footer {
+	text-align: left;
+	height: 150px;
+	padding-top: 40px;
+	background: #0f1f39;
+	color: #7B9DD0;
+
+}
+
+.julo_footer {
+	height: 30px;
+	background: #0c182d;
+}
+
+.footer_btn {
+	width: 100%;
+	background: transparent;
+	color: #7B9DD0;
+	border: 2px solid #7B9DD0;
+}
+
+.footer_btn:hover {
+	background: transparent;
+	color: #fff;
+	border: 3px solid #7B9DD0;
+}
+
+.footer_btn:active:focus {
+	background: transparent;
+	color: #fff;
+	border: 3px solid #7B9DD0;
+}

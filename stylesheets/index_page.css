@@ -2,8 +2,9 @@ h1 {
 	font-size: 35px !important;
 }
 
-h3 {
-	width: auto;
+p.index_text-heads {
+	font-weight: 500;
+	font-size: 25px;
 	border-bottom: 3px solid #F9D477;
 }
 
@@ -13,14 +14,14 @@ ul {
 
 
 .jumbotron {
-	height: 450px;
+	height: 500px;
 
 	color: #fff;
 	background: #7f8ca5;
 }
 
 .index_description {
-	margin-top: 100px;
+	margin-top: 150px;
 	height: 100px;
 }
 
@@ -29,3 +30,7 @@ ul {
 	margin-bottom: 50px;
 }
 
+.julo_footer {
+	height: 30px;
+	background: #0f1f39;
+}
