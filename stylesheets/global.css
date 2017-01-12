@@ -124,9 +124,10 @@ footer {
 }
 
 .index_footer {
+	font-size: 16px;
 	text-align: left;
 	height: 150px;
-	padding-top: 40px;
+	padding-top: 35px;
 	background: #0f1f39;
 	color: #7B9DD0;
 
@@ -142,6 +143,7 @@ footer {
 	background: transparent;
 	color: #7B9DD0;
 	border: 2px solid #7B9DD0;
+	border-radius: 0px;
 }
 
 .footer_btn:hover {

@@ -6,6 +6,7 @@ p.index_text-heads {
 	font-weight: 500;
 	font-size: 25px;
 	border-bottom: 3px solid #F9D477;
+	margin-bottom: 0px;
 }
 
 ul {
@@ -28,9 +29,4 @@ ul {
 .index_info-block {
 	margin-top: 50px;
 	margin-bottom: 50px;
-}
-
-.julo_footer {
-	height: 30px;
-	background: #0f1f39;
 }
