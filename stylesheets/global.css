@@ -90,14 +90,14 @@ html, body {
 
 #logo {
 	margin: 0;
-	width: 110px;
+	width: 100px;
 }
 
 .navbar .navbar-nav > .active > a, 
 .navbar .navbar-nav > .active > a:hover, 
 .navbar .navbar-nav > .active > a:focus {
 	color: #0F1F3B;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 600;
     background-color: transparent;
 }
@@ -149,8 +149,8 @@ footer {
 .index_footer {
 	font-size: 16px;
 	text-align: left;
-	height: 150px;
-	padding-top: 45px;
+	height: 100px;
+	padding-top: 35px;
 	background: #0f1f39;
 	color: #7B9DD0;
 
@@ -177,22 +177,24 @@ footer {
 }
 
 .footer_subtext_head {
-	font-size: 15px;
-}
-
-.footer_subtext {
 	font-size: 14px;
 }
 
+.footer_subtext {
+	font-size: 12px;
+}
+
 .julo_footer {
-	height: 30px;
+	height: 32px;
 	background: #0c182d;
 }
 
 .copyright {
-	float: left;
+	font-size: 10px;
+	color: #7F8CA5;
 }
 
-.copyright {
-	float: tight;
+.julo_link {
+	font-size: 10px;
+	color: #7F8CA5;
 }

@@ -40,11 +40,16 @@ h1 {
 
 .index_description {
 	margin-top: 150px;
-	height: 100px;
+	height: 150px;
 }
 
 .index_info-block {
 	margin-top: 50px;
 	margin-bottom: 50px;
+	padding: 25px;
 }
 
+.bg-2 {
+	background: #F4F5F7;
+	width: 100vw;
+}
