@@ -33,8 +33,8 @@
 
 html, body {
 
-	/* font-family: 'Noto Sans', sans-serif;*/	
- 	font-size: 16px;
+	 font-family: 'Noto Sans', sans-serif;	
+ 	font-size: 15px;
 
 	/* overflow-x: hidden;
 	overflow-y: hidden; */
@@ -75,62 +75,113 @@ html, body {
 } */
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
-
 	background: #fff;
 	border: none;
-
 }
 
 .navbar-brand {
-	padding: 10px 10px;
+	padding: 15px 10px;
 }
 
-#myNavbar {
-	float: right;
-	margin: 0;
-}
 
 #logo {
 	margin: 0;
 	width: 110px;
 }
 
-.navbar-inverse .navbar-nav > .active > a, 
-.navbar-inverse .navbar-nav > .active > a:hover, 
-.navbar-inverse .navbar-nav > .active > a:focus {
+.navbar .navbar-nav > .active > a, 
+.navbar .navbar-nav > .active > a:hover, 
+.navbar .navbar-nav > .active > a:focus {
 	color: #0F1F3B;
 	font-size: 17px;
 	font-weight: 600;
     background-color: transparent;
-    border-bottom: 3px solid #F9D477;
 }
 
-.navbar-inverse .navbar-nav > li > a,
-.navbar-inverse .navbar-nav > li > a:hover, 
-.navbar-inverse .navbar-nav > li > a:focus {
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover, 
+.navbar .navbar-nav > li > a:focus {
 	color: #0F1F3B;
 	font-weight: 400;
     background-color: transparent;
     border-bottom: none;
 }
 
+li.menu__item::after {
+	position: relative;
+	content: "";
+	display: none;
+	width: 100%;
+	height: 4px;
+	background-color: #FAC864;
+}
+
+li.active::after {
+	position: relative;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #FAC864;
+}
+
+li.menu__item:hover:after {
+ 	display:block;
+}
+
+
+#myNavbar {
+	float: right;
+	margin: 0;
+}
+
+
+
 /* Add a gray background color and some padding to the footer */
 footer {
 	background-color: #f2f2f2;
-	padding: 25px;
 }
 
 .index_footer {
 	font-size: 16px;
 	text-align: left;
 	height: 150px;
-	padding-top: 35px;
+	padding-top: 45px;
 	background: #0f1f39;
 	color: #7B9DD0;
 
+}
+
+.footer_btn {
+	width: 100%;
+	background: transparent;
+	color: #7B9DD0;
+	border: 1px solid #7B9DD0;
+	border-radius: 2px;
+}
+
+.footer_btn:hover {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.footer_btn:active:focus {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #7B9DD0;
+}
+
+.footer_subtext_head {
+	font-size: 15px;
+}
+
+.footer_subtext {
+	font-size: 14px;
 }
 
 .julo_footer {
@@ -138,22 +189,10 @@ footer {
 	background: #0c182d;
 }
 
-.footer_btn {
-	width: 100%;
-	background: transparent;
-	color: #7B9DD0;
-	border: 2px solid #7B9DD0;
-	border-radius: 0px;
+.copyright {
+	float: left;
 }
 
-.footer_btn:hover {
-	background: transparent;
-	color: #fff;
-	border: 3px solid #7B9DD0;
-}
-
-.footer_btn:active:focus {
-	background: transparent;
-	color: #fff;
-	border: 3px solid #7B9DD0;
+.copyright {
+	float: tight;
 }

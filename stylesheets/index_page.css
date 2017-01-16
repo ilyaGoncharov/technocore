@@ -1,22 +1,39 @@
+p.index_text-heads {
+	font-weight: 500;
+	font-size: 25px;
+	color: #0F1F39;
+}
+
+p {
+	margin-bottom: 0px;
+	float: left;
+	clear: both;
+}
+
+p.index_text-heads::after {
+	position: relative;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #FAC864;
+}
+
+p.index_centered_text {
+	float: initial;
+}
+
+ul.index_list {
+	margin-left: 40px ;
+
+}
+
 h1 {
 	font-size: 35px !important;
 }
 
-p.index_text-heads {
-	font-weight: 500;
-	font-size: 25px;
-	border-bottom: 3px solid #F9D477;
-	margin-bottom: 0px;
-}
-
-ul {
-	margin-left: 40px ;
-}
-
-
 .jumbotron {
 	height: 500px;
-
 	color: #fff;
 	background: #7f8ca5;
 }
@@ -30,3 +47,4 @@ ul {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
