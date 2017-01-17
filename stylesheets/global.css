@@ -117,6 +117,20 @@ p {
     text-align: center;
 }
 
+.dropdown_show:hover .dropdown {
+	display: block;
+	position: fixed;
+	list-style: none;
+	width: 300px;
+	background-color: #F4F5F7;
+	padding: 5px
+	z-index: 5;
+}
+
+.dropdown {
+	display: none;
+}
+
 .flag_link {
 	width: 50px;
 }
@@ -201,18 +215,7 @@ li.menu__item:hover:after {
   transform: translate(240px, 0);
 }
 
-#myNavbar li:nth-child(4):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-#myNavbar li:nth-child(4):hover ~ #marker {
-  -webkit-transform: translate(360px, 0);
-  -moz-transform: translate(360px, 0);
-  -ms-transform: translate(360px, 0);
-  transform: translate(360px, 0);
-}
+
 
 
 /* Add a gray background color and some padding to the footer */
