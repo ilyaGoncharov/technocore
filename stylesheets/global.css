@@ -114,6 +114,10 @@ p {
 	border-bottom: 2px solid #587DAE;
 }
 
+.fa-arrow-down:before {
+	font-size: 10px;
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
