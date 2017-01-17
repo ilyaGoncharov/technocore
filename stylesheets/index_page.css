@@ -3,7 +3,7 @@
 ===============================================================================================*/
 
 p.index_text-heads {
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 25px;
 	color: #0F1F39;
 }
@@ -38,6 +38,7 @@ h1 {
 	height: 500px;
 	color: #fff;
 	background: #7f8ca5;
+	z-index: 0;
 }
 
 .index_description {

@@ -79,6 +79,41 @@ p {
 	margin: 0;
 }
 
+
+#dropdown {
+	display: none;
+	position: absolute;
+	left: -130px;
+
+	width: 390px;
+	height: auto;
+	margin-top: 10px;
+	background: #fff;	
+	list-style: none;
+}
+
+#dropdown::before { 
+	border-bottom: 9px solid rgba(255, 255, 255, 1);
+    border-left: 9px solid rgba(255, 255, 255, 0);
+    border-right: 9px solid rgba(255, 255, 255, 0);
+    content: "";
+    display: inline-block;
+    left: 175px;
+    position: absolute;
+    top: -8px;
+}
+
+#dropdown li {
+	height: 45px;
+	font-size: 15px;
+	padding: 12px;
+	text-align: center;
+}
+
+#dropdown li:nth-child(1) {
+	border-bottom: 2px solid #587DAE;
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
@@ -117,46 +152,15 @@ p {
     text-align: center;
 }
 
-.dropdown_show:hover .dropdown {
-	display: block;
-	position: fixed;
-	list-style: none;
-	width: 300px;
-	background-color: #F4F5F7;
-	padding: 5px
-	z-index: 5;
-}
-
-.dropdown {
-	display: none;
-}
-
 .flag_link {
 	width: 50px;
 }
+
 
 img.flag {
 	width: 15px;
 	margin-left: 2px;
 }
-
-/* li.menu__item::after {
-	position: relative;
-	content: "";
-	display: none;
-	width: 100%;
-	height: 4px;
-	background-color: #FAC864;
-}
-
-li.active::after {
-	position: relative;
-	content: "";
-	display: block;
-	width: 100%;
-	height: 4px;
-	background-color: #FAC864;
-} */
 
 li.menu__item:hover:after {
  	display:block;
@@ -175,12 +179,17 @@ li.menu__item:hover:after {
   transition: all 0.35s;
 }
 
-#myNavbar li:nth-child(1):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
+#marker2 {
+	height: 4px;
+	background: #FAC864 !important;
+	position: absolute;
+	left: 0px;
+	display: none;
+	bottom: 0;
+	width: 120px;
+	z-index: 2;
 }
+
 
 #myNavbar li:nth-child(1):hover ~ #marker {
   -webkit-transform: translate(0px, 0);
@@ -189,12 +198,7 @@ li.menu__item:hover:after {
   transform: translate(0px, 0);
 }
 
-#myNavbar li:nth-child(2):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
+
 #myNavbar li:nth-child(2):hover ~ #marker {
   -webkit-transform: translate(120px, 0);
   -moz-transform: translate(120px, 0);
@@ -202,12 +206,7 @@ li.menu__item:hover:after {
   transform: translate(120px, 0);
 }
 
-#myNavbar li:nth-child(3):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
+
 #myNavbar li:nth-child(3):hover ~ #marker {
   -webkit-transform: translate(240px, 0);
   -moz-transform: translate(240px, 0);
@@ -216,9 +215,6 @@ li.menu__item:hover:after {
 }
 
 
-
-
-/* Add a gray background color and some padding to the footer */
 footer {
 	background-color: #f2f2f2;
 }
