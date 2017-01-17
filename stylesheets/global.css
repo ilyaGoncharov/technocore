@@ -69,6 +69,11 @@ html, body {
     font-weight: normal;
 } */
 
+p {
+	margin-bottom: 0px;
+}
+
+
 #myNavbar {
 	float: right;
 	margin: 0;
@@ -82,12 +87,12 @@ html, body {
 }
 
 .navbar-brand {
-	padding: 15px 10px;
+	padding: 10px 10px;
 }
 
 #logo {
 	margin: 0;
-	width: 100px;
+	width: 120px;
 }
 
 .navbar .navbar-nav > li > a,
@@ -110,6 +115,15 @@ html, body {
     background-color: transparent;
     width: 120px;
     text-align: center;
+}
+
+.flag_link {
+	width: 50px;
+}
+
+img.flag {
+	width: 15px;
+	margin-left: 2px;
 }
 
 /* li.menu__item::after {
@@ -207,17 +221,17 @@ footer {
 }
 
 .index_footer {
-	font-size: 16px;
+	font-size: 15px;
 	text-align: left;
 	height: 100px;
 	padding-top: 35px;
 	background: #0f1f39;
 	color: #7B9DD0;
-
 }
 
 .footer_btn {
 	width: 100%;
+	font-size: 14px;
 	background: transparent;
 	color: #7B9DD0;
 	border: 1px solid #7B9DD0;
@@ -252,9 +266,13 @@ footer {
 .copyright {
 	font-size: 10px;
 	color: #7F8CA5;
+	margin: 0;
+	padding: 0;
 }
 
 .julo_link {
 	font-size: 10px;
 	color: #7F8CA5;
+	text-align: right;
+	margin-right: 0px;
 }

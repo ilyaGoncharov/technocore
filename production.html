@@ -49,32 +49,27 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar">
 	  <div class="container">
+		<div class="navbar-header col-sm-2">
+		  <a class="navbar-brand " href="index.html">
+			  <img src="pics/techcore_logo.svg" alt="[ Логотип ] " id="logo">
+		  </a>
+		</div>
 
-	    <div class="navbar-header col-sm-2">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      </button>
-	      <a class="navbar-brand " href="index.html">
-	      	  <img src="pics/techcore_logo.svg" alt="ЛОГО" id="logo">
-	      </a>
-	    </div>
+		<div class="col-sm-7"></div>
 
-	    <div class="col-sm-7"></div>
-
-	    <div class="collapse navbar-collapse col-sm-3" id="myNavbar">
-	      <ul class="nav navbar-nav">
-	        <!-- <li class="active"><a href="#">Главная</a></li> -->
-	        <li class="active"><a href="#">Продукция</a></li>
-	        <li><a href="#">Контакты</a></li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Ru <span class="glyphicon glyphicon-log-in"></span></a></li>
-	      </ul>
-	    </div>
+		<div class="collapse navbar-collapse col-sm-3" id="myNavbar">
+		  <ul class="nav navbar-nav">
+			<li class="menu__item active"><a href="index.html">Главная</a></li> 
+			<li class="menu__item"><a href="production.html">Продукция</a></li>
+			<li class="menu__item"><a href="#">Контакты</a></li>
+			<div id="marker"></div>
+			<li class="flag_link"> 
+				<a href="#"> Ru <img src="/pics/russia-flag-icon.jpg" alt="" class="flag"></a> 
+			</li>
+		  </ul>
+		</div>
 	  </div>
 	</nav>
 
@@ -90,32 +85,55 @@
 	    </a>   
 	  </div>
 	</div>
-	<footer class="container-fluid index_footer">
+
+<footer class="container-fluid index_footer">
 	   <div class="container">
 			<div class="row">
-		   		<div class="col-sm-2">
-			    Телефон <br>
-			    +7 (496) 539 60 25 
-			    </div>
+				<div class="col-sm-2">
+				<p class="footer_subtext_head">
+					<strong>Телефон:</strong>
+				</p>
+				<p class="footer_subtext">
+				+7 (496) 539 60 25 
+				</p>	
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-2">
-			    E-mail <br>
-			    info@texnocor.com
-			    </div>
+				<div class="col-sm-offset-1 col-sm-2">
+				<p class="footer_subtext_head">
+					<strong>E-mail:</strong>
+				</p>
+				<p class="footer_subtext">
+				info@texnocor.com
+				</p>	
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-2">
-			    Адрес <br>
-			    г. Пушкино, ул. Тургеньева, 24
-			    </div>
+				<div class="col-sm-offset-1 col-sm-3">
+				<p class="footer_subtext_head">
+					<strong>Адрес:</strong>
+				</p>
+				<p class="footer_subtext">
+				г. Пушкино, 
+				ул. Тургеньева, 24
+				</p>
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-3 ">
-			    <button type="button" class="btn btn-primary footer_btn">Написать письмо</button>
-		    	</div>
-		   	</div>
-		   	<!-- <div class="row julo_footer">
-	   		</div> -->
-	  	</div>
+				<div class="col-sm-3">
+				<button type="button" class="btn btn-primary footer_btn">Написать письмо</button>
+				</div>
+			</div>
+		</div>
 	</footer>
+	<div class="container-fluid julo_footer">
+		<div class="container">
+			<div class="col-sm-2 copyright">
+			Copyright
+		</div>
+		<div class="col-sm-offset-8 col-sm-2 julo_link">
+			Разработанно JULO
+		</div>
+		</div>
+		
+	</div>
 
 </body>
 </html>
