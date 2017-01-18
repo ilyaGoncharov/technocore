@@ -73,66 +73,13 @@ p {
 	margin-bottom: 0px;
 }
 
+/*=============================================================================================== 
+.: HEADER :. 
+===============================================================================================*/
 
 #myNavbar {
 	float: right;
 	margin: 0;
-}
-
-
-#dropdown {
-	display: none;
-	position: absolute;
-	left: -130px;
-
-	width: 390px;
-	height: auto;
-	margin-top: 2px;
-	background: #fff;	
-	color: #0F1F3B;
-	list-style: none;
-	border-radius: 0px 0px 2px 2px;
-}
-
-
-#dropdown li:hover,
-#dropdown a:hover	{
-	background: #FAC864;
-	color: #fff;	
-}
-
-/* #dropdown:hover:before {
-	border-bottom: 9px solid rgba(250, 200, 100, 1);
-    border-left: 9px solid rgba(250, 200, 100, 0);
-    border-right: 9px solid rgba(250, 200, 100, 0);
-}
-
-
-#dropdown::before { 
-	border-bottom: 9px solid rgba(255, 255, 255, 1);
-    border-left: 9px solid rgba(255, 255, 255, 0);
-    border-right: 9px solid rgba(255, 255, 255, 0);
-    content: "";
-    display: inline-block;
-    left: 185px;
-    position: absolute;
-    top: -8px;
-} */
-
-#dropdown li {
-	height: 45px;
-	font-size: 15px;
-	padding: 12px;
-	text-align: center;
-}
-
-#dropdown li:nth-child(1) {
-	border-bottom: 2px solid #587DAE;
-}
-
-
-.fa-arrow-down:before {
-	font-size: 10px;
 }
 
 .navbar {
@@ -141,7 +88,6 @@ p {
 	background: #fff;
 	border: none;
 	box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
-
 }
 
 .navbar-brand {
@@ -174,6 +120,57 @@ p {
     width: 120px;
     text-align: center;
 }
+
+#drop {
+	cursor: pointer;
+}
+
+#dropdown {
+	display: none;
+	position: absolute;
+	left: -130px;
+	width: 390px;
+	height: auto;
+	margin-top: 2px;
+	background: #fff;	
+	color: #0F1F3B;
+	list-style: none;
+	border-radius: 0px 0px 2px 2px;
+}
+
+#dropdown li:hover,
+#dropdown a:hover	{
+	background: #FAC864;
+	color: #fff;	
+}
+
+#dropdown li {
+	height: 45px;
+	font-size: 15px;
+	padding: 12px;
+	text-align: center;
+}
+
+#dropdown li:nth-child(1) {
+	border-bottom: 2px solid #587DAE;
+}
+
+/* #dropdown:hover:before {
+	border-bottom: 9px solid rgba(250, 200, 100, 1);
+    border-left: 9px solid rgba(250, 200, 100, 0);
+    border-right: 9px solid rgba(250, 200, 100, 0);
+}
+
+#dropdown::before { 
+	border-bottom: 9px solid rgba(255, 255, 255, 1);
+    border-left: 9px solid rgba(255, 255, 255, 0);
+    border-right: 9px solid rgba(255, 255, 255, 0);
+    content: "";
+    display: inline-block;
+    left: 185px;
+    position: absolute;
+    top: -8px;
+} */
 
 .flag_link {
 	width: 50px;
@@ -243,6 +240,14 @@ li.menu__item:hover:after {
 }
 
 
+/*=============================================================================================== 
+.:. 
+===============================================================================================*/
+
+/*=============================================================================================== 
+.: FOOTER :. 
+===============================================================================================*/
+
 footer {
 	background-color: #f2f2f2;
 }
@@ -256,6 +261,24 @@ footer {
 	color: #7B9DD0;
 }
 
+.footer_subtext_head {
+	font-size: 14px;
+}
+
+.footer_subtext {
+	font-size: 12px;
+}
+
+.footer_subtext a {
+	color: #7B9DD0;
+}
+
+.footer_subtext a:hover {
+	color: #fff;
+}
+
+
+
 .footer_btn {
 	width: 100%;
 	font-size: 14px;
@@ -265,24 +288,33 @@ footer {
 	border-radius: 2px;
 }
 
+.footer_btn a {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	color: #7B9DD0;
+}
+
+.footer_btn a:hover{
+	color: #fff;
+}
+
 .footer_btn:hover {
 	background: transparent;
-	color: #fff;
 	border: 1px solid #fff;
 }
 
-.footer_btn:active:focus {
+.footer_btn:hover a {
 	background: transparent;
 	color: #fff;
-	border: 1px solid #7B9DD0;
 }
 
-.footer_subtext_head {
-	font-size: 14px;
-}
-
-.footer_subtext {
-	font-size: 12px;
+.footer_btn:active,
+.footer_btn:focus {
+	background: transparent !important;
+	color: #fff !important;
+	outline: none !important;
+	border: 2px solid #fff !important;
 }
 
 .julo_footer {
@@ -294,12 +326,29 @@ footer {
 	font-size: 10px;
 	color: #7F8CA5;
 	margin: 0;
-	padding: 0;
+	padding-left: 0;
+	padding-top: 8px;
 }
 
 .julo_link {
 	font-size: 10px;
 	color: #7F8CA5;
 	text-align: right;
-	margin-right: 0px;
+	padding: 0;
+	padding-top: 8px;
 }
+
+.julo_link a {
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #7F8CA5;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.julo_link a:hover {
+	color: #fff;
+}
+
+/*=============================================================================================== 
+.:. 
+===============================================================================================*/

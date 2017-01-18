@@ -26,6 +26,7 @@
 
 	<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
 
+	<link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap/css/bootstrap.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"> 
 	<link rel="stylesheet" type="text/css" href="stylesheets/global.css" media="screen"> 
@@ -50,30 +51,46 @@
 </head>
 <body>
 	<nav class="navbar">
-	  <div class="container">
-		<div class="navbar-header col-sm-2">
-		  <a class="navbar-brand " href="index.html">
-			  <img src="pics/techcore_logo.svg" alt="[ Логотип ] " id="logo">
-		  </a>
+		<div class="container">
+			<div class="navbar-header col-sm-2">
+			  <a class="navbar-brand " href="index.html">
+				  <img src="pics/techcore_logo.svg" alt="[ Логотип ] " id="logo">
+			  </a>
 		</div>
 
 		<div class="col-sm-7"></div>
 
 		<div class="collapse navbar-collapse col-sm-3" id="myNavbar">
-		  <ul class="nav navbar-nav">
-			<li class="menu__item active"><a href="index.html">Главная</a></li> 
-			<li class="menu__item"><a href="production.html">Продукция</a></li>
-			<li class="menu__item"><a href="#">Контакты</a></li>
-			<div id="marker"></div>
-		  </ul>
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="#">Ru <span class="flag"></span></a></li>
-		  </ul>
+			<ul class="nav navbar-nav btn-group">
+				<li class="menu__item active"><a href="index.html">Главная</a></li> 
+				<li class="menu__item">
+					<a onclick="show(dropdown)" id="drop">
+						Продукция
+						<i class="fa fa-angle-down" aria-hidden="true" style="width: 1px;"></i>
+						<div id="marker2"></div>
+					</a>
+
+					<ul id="dropdown">
+						<li><a href="mne.html"> Молекулярные накопители энергии</a> </li>
+						<li><a href="svep.html"> Средства внешнего электронного пуска</a> </li> 
+					</ul>
+				</li>
+				<li class="menu__item"><a href="#">Контакты</a></li>
+				<div id="marker"></div>
+				<li role="presentation" class="divider"></li>
+				<li class="flag_link"> 
+					<a href="mne_eng.html"> Ru 
+						<img src="pics/en_pic.png" alt="" class="flag">
+					</a> 
+				</li>
+			</ul>
 		</div>
 	  </div>
 	</nav>
 
 	<div class="jumbotron mne_panel">
+	</div>
+
 	<div class="container">
 		<div class="col-sm-3 mne_menu">
 			<ul>
@@ -104,33 +121,65 @@
 			</div>
 		</div>	
 	</div>
-	
+
 	<footer class="container-fluid index_footer">
 	   <div class="container">
 			<div class="row">
-		   		<div class="col-sm-2">
-			    Телефон <br>
-			    +7 (496) 539 60 25 
-			    </div>
+				<div class="col-sm-2">
+					<p class="footer_subtext_head">
+						<strong>Телефон:</strong>
+					</p>
+					<p class="footer_subtext"> 
+						+7 (496) 539 60 25 
+					</p>	
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-2">
-			    E-mail <br>
-			    info@texnocor.com
-			    </div>
+				<div class="col-sm-offset-1 col-sm-2">
+					<p class="footer_subtext_head">
+						<strong>E-mail:</strong>
+					</p>
+					
+					<p class="footer_subtext">
+						<a href="mailto:info@texnocor.com?subject=feedback" "">
+							info@texnocor.com
+						</a>
+					</p>	
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-2">
-			    Адрес <br>
-			    г. Пушкино, ул. Тургеньева, 24
-			    </div>
+				<div class="col-sm-offset-1 col-sm-3">
+					<p class="footer_subtext_head">
+						<strong>Адрес:</strong>
+					</p>
+					
+					<p class="footer_subtext">
+						г. Пушкино, 
+						ул. Тургеньева, 24
+					</p>
+				</div>
 
-			    <div class="col-sm-offset-1 col-sm-3 ">
-			    <button type="button" class="btn btn-primary footer_btn">Написать письмо</button>
-		    	</div>
-		   	</div>
-		   	<!-- <div class="row julo_footer">
-	   		</div> -->
-	  	</div>
+				<div class="col-sm-3">
+					<button type="button" class="btn btn-primary footer_btn">
+						<a href="contacts.html">
+							Написать письмо
+						</a>
+					</button>
+				</div>
+			</div>
+		</div>
 	</footer>
 
+	<div class="container-fluid julo_footer">
+		<div class="container">
+			<div class="col-sm-3 copyright">
+				[2017] Все права защищены. "Tехнокор"
+			</div>
+
+			<div class="col-sm-offset-7 col-sm-2 julo_link">
+				Разработанно <a href="http://startjulo.ru/">JULO</a>
+			</div>
+		</div>
+	</div>
+
 </body>
+<script src="js/script.js"></script>
 </html>

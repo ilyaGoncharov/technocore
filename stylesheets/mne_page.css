@@ -1,15 +1,19 @@
-.mne_panel {
-	height: 500px;
-	padding-top: 15%;
+.mne_menu {
 	background: #F4F5F7;
+	height: 100vh;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+
+}
+
+.mne_menu  ul {
+	list-style: none; 
+}
+
+.mne_panel {
+	background: #fff;
 	margin-bottom: 0px;
 	text-align: left;
 }
 
-.mne_menu {
-	height: 500px;
-	padding-top: 15%;
-	background: #F4F5F7;
-	margin-bottom: 0px;
-	text-align: left;
-}
