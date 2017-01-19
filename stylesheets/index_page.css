@@ -2,10 +2,37 @@
 .: INDEX :. 
 ===============================================================================================*/
 
+
+h1 {
+	font-family: "Carlito-Bold";
+	font-size: 40px !important;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale; 
+}
+
+
+p.index_centered_text {
+	font-family: "Arial-Regular";
+	float: initial;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale; 
+}
+
+.jumbotron {
+	height: 500px;
+	color: #fff;
+	background: #7f8ca5;
+	z-index: 0;
+	margin-bottom: 0px;
+}
+
 p.index_text-heads {
+	font-family: "Carlito-Bold";
 	font-weight: 500;
 	font-size: 25px;
 	color: #0F1F39;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale; 
 }
 
 p {
@@ -20,22 +47,6 @@ p.index_text-heads::after {
 	width: 100%;
 	height: 4px;
 	background-color: #FAC864;
-}
-
-p.index_centered_text {
-	float: initial;
-}
-
-h1 {
-	font-size: 35px !important;
-}
-
-.jumbotron {
-	height: 500px;
-	color: #fff;
-	background: #7f8ca5;
-	z-index: 0;
-	margin-bottom: 0px;
 }
 
 .index_description {
