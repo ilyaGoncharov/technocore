@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Технокор</title>
+	<meta name="description" content="Научно-производственное объединение"/>
+
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
+	Разобрать нормлаьно и подкрутить после разработки non-responsive версии
+	http://getbootstrap.com/getting-started/#disable-responsive
+	http://webdesignerwall.com/tutorials/viewport-meta-tag-for-non-responsive-design
+	-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		Только переписывает юзер кастомизацию, в ином случае IE использует !Doctype
+		Более того у этого тэга есть минусы: 
+		It fails HTML Validation
+		It causes IE to stop and re-render your page
+		It was only ever designed for temporary use while you fix problems
+		Подробнее:
+		http://stackoverflow.com/questions/26346917/why-use-x-ua-compatible-ie-edge-anymore
+	-->
+
+	<link rel="canonical" href="#" />
+	<!-- Указать оптимальную ссылку для индексирования -->
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap/css/bootstrap.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"> 
+	<link rel="stylesheet" type="text/css" href="stylesheets/global.css" media="screen"> 
+	<link rel="stylesheet" type="text/css" href="stylesheets/prod_page.css" media="screen">
+	<!-- <link rel="stylesheet" type="text/css" href="stylesheets/global_queries.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/index_queries.css" media="screen"> -->
+
+	<link rel="icon" type="image/png" href="pics/favicon.png" sizes="16x16"/>
+	<!-- <link rel="icon" type="image/png" href="http:// ./img/favicon-32x32.png" sizes="32x32"/> -->
+
+    <!--[if lt IE 7]>
+        <p class="browsehappy">Вы используете <strong> очень устаревшую </strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/"> обновите его</a>, чтобы улучшить свою производительность в сети</p>
+    <![endif]-->
+    <!--[if lt IE 8]>
+        <p class="browsehappy">Вы используете <strong> очень устаревшую </strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите его</a>, чтобы улучшить свою производительность в сети</p>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body data-spy="scroll" data-offset="350" data-target="#myScrollspy">
+	<nav class="navbar">
+		<div class="container">
+			<div class="navbar-header col-sm-2">
+			  <a class="navbar-brand " href="index.html">
+				  <img src="pics/techcore_logo.svg" alt="[ Логотип ] " id="logo">
+			  </a>
+		</div>
+
+		<div class="col-sm-7"></div>
+
+		<div class="collapse navbar-collapse col-sm-3" id="myNavbar">
+			<ul class="nav navbar-nav btn-group">
+				<li class="menu__item"><a href="index.html">Главная</a></li> 
+				<li class="menu__item active">
+					<a onclick="show(dropdown)" id="drop">
+						Продукция
+						<i class="fa fa-angle-down" aria-hidden="true" style="width: 1px;"></i>
+						<div id="marker2"></div>
+					</a>
+
+					<ul id="dropdown">
+						<li><a href="mne.html"> Молекулярные накопители энергии</a> </li>
+						<li><a href="svep.html"> Средства внешнего электростартерного пуска</a> </li> 
+					</ul>
+				</li>
+				<li class="menu__item"><a href="#">Контакты</a></li>
+				<div id="marker"></div>
+				<li role="presentation" class="divider"></li>
+				<li class="flag_link"> 
+					<a href="mne_eng.html"> Ru 
+						<img src="pics/en_pic.png" alt="" class="flag">
+					</a> 
+				</li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
+
+	<div class="jumbotron prod_jumbotron" onclick="hide(dropdown)">
+		<div class="container text-center prod_name">
+			<p>Средства внешнего электростартерного пуска</p>      
+		</div>
+	</div>
+
+	<div class="container-fluid prod_container" onclick="hide(dropdown)">
+		<nav class="col-sm-4 prod_menu" id="myScrollspy" style="height: 3200px;">
+			<ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset="250">
+				<li><a class="prod_links" href="#ae16c1">АЭ-1-6-С1</a></li>
+				<li><a class="prod_links" href="#ae14">АЭ-1-4</a></li>
+				<li><a class="prod_links" href="#ae13f3">АЭ-1-3Ф3</a></li>
+				<li><a class="prod_links" href="#ppu1">ППУ-1</a></li>
+			</ul> 
+		</nav>
+
+		<div class="col-sm-8">
+			<div class="row prod_texts">
+
+			   	<div class="col-sm-2">
+				</div>
+
+				<div class="col-sm-8 prod_text"> 
+			 		<p id="ae16c1" class="text-head">АЭ-1-6-С1</p>
+			 		<br>
+					<p>
+					Автономный энергоагрегат АЭ-1-6-С1 предназначен для образцов военной техники с любыми двигателями внутреннего сгорания, включая газотурбинные (типа Т-80):
+					</p>
+					<br>
+					<table class="table table-striped">
+					    <tbody>    
+					      <tr>
+					        <td>•  предпускового разогрева силовых установок образцов бронетанковой техники (БТВТ) и военной автомобильной техники (ВАТ) с использованием жидкостного подогревателя (при его наличии),</td>
+					      </tr>
+					      <tr>
+					        <td>•  расконсервации двигателей образцов БТВТ и ВАТ,</td>
+					      </tr>
+					      <tr>
+					        <td>•  электростартерного пуска двигателей образцов БТВТ и ВАТ,</td>
+					      </tr>
+					      <tr>
+					        <td>•  проверки параметров и диагностирования систем управления огнём и комплексов управляемого вооружения в соответствии с требованиями эксплуатационной документации на образцы БТВT,</td>
+					      </tr>
+					      <tr>
+					        <td>•  обеспечения электроэнергией приёмников (потребителей) прочих систем образцов БТВТ и ВАТ.</td>
+					      </tr>
+					    </tbody>
+					 </table>
+					 <br>
+					 <p>
+					 	Изделие АЭ-1-6-С1 обеспечивает выполнение задач по предназначению со всеми образцами БТВТ и ВАТ, состоящими на вооружении МО РФ. Качество электрической энергии АЭ-1-6-С1 соответствует требованиям ГОСТ В 21999 и ГОСТ РВ 20.39.309.
+					 </p>
+					<br>
+					<p class="text-subhead-description">
+					 	Вышеперечисленные работы могут проводиться без установки аккумуляторных батарей на образец ВТ, при условии обязательного подключения АЭ к бортовой сети на период проведения работ.
+					</p>
+					<p class="prod_final_textblock"></p>
+
+					<p id="ae14" class="text-head">АЭ-1-4</p>
+			 		<br>
+					<p>
+					Автономный энергоагрегат АЭ-1-4 предназначен для:
+					</p>
+					<br>
+					<table class="table table-striped">
+					    <tbody>    
+					      <tr>
+					        <td>•  предпускового разогрева силовых установок образцов БТВТ и ВАТ с использованием жидкостного подогревателя (при его наличии),</td>
+					      </tr>
+					      <tr>
+					        <td>•  расконсервации поршневых двигателей образцов БТВТ и ВАТ,</td>
+					      </tr>
+					      <tr>
+					        <td>•  лектростартерного пуска поршневых двигателей образцов БТВТ и ВАТ с системами электрического пуска 12В, 24В, 0/48В (БМП-3, Т-72, Т-90 и машины на их базе),
+					        </td>
+					      </tr>
+					      <tr>
+					        <td>•  обеспечения электроэнергией приёмников (потребителей) прочих систем образцов БТВТ и ВАТ суммарной мощностью до 1,8 кВт (при номинальном напряжении 24 В).</td>
+					       </tr>
+					 </table>
+					<p>
+					Изделие АЭ-1-4 обеспечивает выполнение задач по предназначению со всеми образцами БТВТ и ВАТ, состоящими на вооружении МО РФ. Качество электрической энергии АЭ-1-4 соответствует требованиям ГОСТ В 21999 и ГОСТ РВ 20.39.309.
+					</p>
+					<br>	
+					<p class="text-subhead-description">
+					 	Климатическое исполнение АЭ – УХЛ1 по ГОСТ 15150.
+					</p>
+					<p class="text-subhead-description">
+					 	Вышеперечисленные работы могут проводиться без установки аккумуляторных батарей на образец ВТ, при условии обязательного подключения АЭ к бортовой сети на период проведения работ
+					</p>
+
+
+					<!--  <button type=""></button> -->
+
+					<p class="prod_final_textblock"></p>
+
+					<p id="ae13f3" class="text-head">АЭ-1-3Ф3</p>
+					<br>
+					<p>
+					Автономный энергоагрегат АЭ-1-3Ф3 предназначен для:
+					</p>
+					<br>
+					<table class="table table-striped">
+					    <tbody>    
+					      <tr>
+					        <td>•  предпускового разогрева силовых установок образцов БТВТ и ВАТ с использованием жидкостного подогревателя (при его наличии),</td>
+					      </tr>
+					      <tr>
+					        <td>•  расконсервации поршневых двигателей образцов БТВТ и ВАТ,</td>
+					      </tr>
+					      <tr>
+					        <td>•  электростартерного пуска поршневых двигателей образцов БТВТ и ВАТ с системами электрического пуска 12В, 24В,
+					        </td>
+					      </tr>
+					      <tr>
+					        <td>•  обеспечения электроэнергией приёмников (потребителей) прочих систем образцов БТВТ и ВАТ суммарной мощностью до 1,8 кВт (при номинальном напряжении 24 В).</td>
+					     </tr>  
+					 </table>	
+					<p>
+					Изделие АЭ-1-3Ф3 обеспечивает выполнение задач по предназначению со всеми образцами БТВТ и ВАТ, состоящими на вооружении МО РФ. Качество электрической энергии АЭ-1-3Ф3 соответствует требованиям ГОСТ В 21999 и ГОСТ РВ 20.39.309.
+					</p>
+					<br>	
+					<p class="text-subhead-description">
+					 	Климатическое исполнение АЭ – УХЛ1 по ГОСТ 15150.
+					</p>
+					<p class="text-subhead-description">
+					 	Вышеперечисленные работы могут проводиться без установки аккумуляторных батарей на образец ВТ, при условии обязательного подключения АЭ к бортовой сети на период проведения работ
+					</p>
+					
+					<p class="prod_final_textblock"></p>
+
+					<p id="ppu1" class="text-head">ППУ-1</p>
+					<br>
+					<p>
+					Пуредвижное Пусковое Устройство предназначено для использования в качестве вспомогательного внешнего источника электрической энергии при пуске двигателей внутреннего сгорания военной ВТ с системой электростартерного пуска без переключения на удвоенное напряжение. 
+					</p>
+					<p>
+					ППУ-1 подключается к бортовой сети с помощью пусковых проводов:
+					</p>
+					<br>
+					<table class="table table-striped">
+					    <tbody>    
+					      <tr>
+					        <td>•  к пусковым розеткам ПС-315,</td>
+					      </tr>
+					      <tr>
+					        <td>•  к клеммам аккумуляторной батареи с помощью зажимов типа «клещи»,</td>
+					      </tr>
+					      <tr>
+					        <td>•  к розеткам, имеющим плоские («ножевые») контакты,
+					        </td>
+					      </tr>
+					      <tr>
+					        <td>•  Коммутация МНЭ - автоматическая, в зависимости от номинала напряжения бортовой сети. ППУ-1 комплектуется,</td>
+					     </tr>  
+					     <tr>
+					        <td>•  комплектом пусковых проводов (№1 — кабель пусковой, с вилками ПС-315; №2 — кабель пусковой, с вилкой кабельной ПС-315 и контактными зажимами типа «крокодил»; №3 — кабель-переходник, с вилкой ПС-315 и плоскими контактами ножевого типа, для БМП1,2, БМД-1,2,3, МТ-ЛБ, Т-55,62 и машин на их базе),</td>
+					     </tr>  
+					     <tr>
+					        <td>•  двумя тросами для буксировки изделия по снегу без колёсного хода,</td>
+					     </tr>  
+					     <tr>
+					        <td>•  одиночным комплектом ЗИП.</td>
+					     </tr>  
+					 </table>	
+					<p>
+					Изделие АЭ-1-3Ф3 обеспечивает выполнение задач по предназначению со всеми образцами БТВТ и ВАТ, состоящими на вооружении МО РФ. Качество электрической энергии АЭ-1-3Ф3 соответствует требованиям ГОСТ В 21999 и ГОСТ РВ 20.39.309.
+					</p>
+					<br>	
+					<p class="text-subhead-description">
+					 	Климатическое исполнение УХЛ 1 по ГОСТ 15159. 
+					</p>
+					<p class="text-subhead-description">
+					 	Эксплуатация при температуре окружающего воздуха от минус 30°С до плюс 40°С в полевых условиях и в условиях паркового хранения.
+					</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+
+	<footer class="container-fluid index_footer">
+		   <div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<p class="footer_subtext_head">
+							<strong>Телефон:</strong>
+						</p>
+						<p class="footer_subtext"> 
+							+7 (496) 539 60 25 
+						</p>	
+					</div>
+
+					<div class="col-sm-offset-1 col-sm-2">
+						<p class="footer_subtext_head">
+							<strong>E-mail:</strong>
+						</p>
+						
+						<p class="footer_subtext">
+							<a href="mailto:info@texnocor.com?subject=feedback" "">
+								info@texnocor.com
+							</a>
+						</p>	
+					</div>
+
+					<div class="col-sm-offset-1 col-sm-3">
+						<p class="footer_subtext_head">
+							<strong>Адрес:</strong>
+						</p>
+						
+						<p class="footer_subtext">
+							г. Пушкино, 
+							ул. Тургеньева, 24
+						</p>
+					</div>
+
+					<div class="col-sm-3">
+						<button type="button" class="btn btn-primary footer_btn">
+							<a href="contacts.html">
+								Написать письмо
+							</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="container-fluid julo_footer">
+			<div class="container">
+				<div class="col-sm-3 copyright">
+					[2017] Все права защищены. "Tехнокор"
+				</div>
+
+				<div class="col-sm-offset-7 col-sm-2 julo_link">
+					Разработанно <a href="http://startjulo.ru/">JULO</a>
+				</div>
+			</div>
+		</div>
+
+</body>
+
+<script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>
+<script type="text/javascript" src="stylesheets/bootstrap/js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</html>
