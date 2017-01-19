@@ -43,10 +43,10 @@ html, body {
 /* font-family: "Carlito-Regular"; */
 @font-face {
     font-family: "Carlito-Regular";
-    src: url("/stylesheets/fonts/Carlito-Regular.eot");
-    src: url("/stylesheets/fonts/Carlito-Regular.eot?#iefix")format("embedded-opentype"),
-    url("/stylesheets/fonts/Carlito-Regular.woff") format("woff"),
-    url("/stylesheets/fonts/Carlito-Regular.ttf") format("truetype");
+    src: url("//stylesheets/fonts/Carlito-Regular.eot");
+    src: url("//stylesheets/fonts/Carlito-Regular.eot?#iefix")format("embedded-opentype"),
+    url("//stylesheets/fonts/Carlito-Regular.woff") format("woff"),
+    url("//stylesheets/fonts/Carlito-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
