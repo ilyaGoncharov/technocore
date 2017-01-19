@@ -47,7 +47,7 @@ html, body {
     src: url("/stylesheets/fonts/Carlito-Regular.eot?#iefix")format("embedded-opentype"),
     url("/stylesheets/fonts/Carlito-Regular.woff") format("woff"),
     url("/stylesheets/fonts/Carlito-Regular.ttf") format("truetype");
-    font-/style: normal;
+    font-style: normal;
     font-weight: normal;
 }
 
@@ -58,7 +58,7 @@ html, body {
     src: url("/stylesheets/fonts/Carlito-Bold.eot?#iefix")format("embedded-opentype"),
     url("/stylesheets/fonts/Carlito-Bold.woff") format("woff"),
     url("/stylesheets/fonts/Carlito-Bold.ttf") format("truetype");
-    font-/style: normal;
+    font-style: normal;
     font-weight: normal;
 }
 
@@ -69,7 +69,7 @@ html, body {
     src: url("/stylesheets/fonts/Arial-Regular.eot?#iefix")format("embedded-opentype"),
     url("/stylesheets/fonts/Arial-Regular.woff") format("woff"),
     url("/stylesheets/fonts/Arial-Regular.ttf") format("truetype");
-    font-/style: normal;
+    font-style: normal;
     font-weight: normal;
 }
 
@@ -80,7 +80,7 @@ html, body {
     src: url("/stylesheets/fonts/Arial-Bold.eot?#iefix")format("embedded-opentype"),
     url("/stylesheets/fonts/Arial-Bold.woff") format("woff"),
     url("/stylesheets/fonts/Arial-Bold.ttf") format("truetype");
-    font-/style: normal;
+    font-style: normal;
     font-weight: normal;
 }
 
