@@ -67,25 +67,20 @@
 	padding-left: 0px;
 }
 
-
-
 .mne_menu {
 	background: #F4F5F7;
 	height: 4600px;
-	margin-left: 0px;
-	margin-bottom: 0px;
 	text-align: left;
-	padding-left: 0px;
 }
 
 .mne_menu ul {
 	list-style: none; 
-	padding-left: 0px;
+	padding-left: 170px;
 	padding-top: 100px;
 }
 
 .mne_menu ul li {
-	margin-bottom: 10px;
+	margin-bottom: -5px;
 }
 
 .mne_links {
@@ -94,8 +89,33 @@
 }
 
 .mne_links:hover {
+	
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+	background: transparent;
 	color: #0F1F39;
 	font-weight: 600;
+}
+
+.nav > li > a:hover, 
+.nav > li > a:focus {
+	background: transparent;
+	color: #0F1F39;
+	font-weight: 600;
+}
+
+.affix {
+	top: 150px;
+	/* -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; */
+}
+
+.affix-top {
+    position: static;
+    /* top: 10px; */
 }
 
 .mne_texts {
