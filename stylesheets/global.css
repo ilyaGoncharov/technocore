@@ -43,54 +43,54 @@ html, body {
 /* font-family: "Carlito-Regular"; */
 @font-face {
     font-family: "Carlito-Regular";
-    src: url("stylesheets/fonts/Carlito/Carlito-Regular.eot");
-    src: url("stylesheets/fonts/Carlito/Carlito-Regular.eot?#iefix")format("embedded-opentype"),
-    url("stylesheets/fonts/Carlito/Carlito-Regular.woff") format("woff"),
-    url("stylesheets/fonts/Carlito/Carlito-Regular.ttf") format("truetype");
-    font-style: normal;
+    src: url("/stylesheets/fonts/Carlito/Carlito-Regular.eot");
+    src: url("/stylesheets/fonts/Carlito/Carlito-Regular.eot?#iefix")format("embedded-opentype"),
+    url("/stylesheets/fonts/Carlito/Carlito-Regular.woff") format("woff"),
+    url("/stylesheets/fonts/Carlito/Carlito-Regular.ttf") format("truetype");
+    font-/style: normal;
     font-weight: normal;
 }
 
 /* font-family: "Carlito-Bold"; */
 @font-face {
     font-family: "Carlito-Bold";
-    src: url("stylesheets/fonts/Carlito/Carlito-Bold.eot");
-    src: url("stylesheets/fonts/Carlito/Carlito-Bold.eot?#iefix")format("embedded-opentype"),
-    url("stylesheets/fonts/Carlito/Carlito-Bold.woff") format("woff"),
-    url("stylesheets/fonts/Carlito/Carlito-Bold.ttf") format("truetype");
-    font-style: normal;
+    src: url("/stylesheets/fonts/Carlito/Carlito-Bold.eot");
+    src: url("/stylesheets/fonts/Carlito/Carlito-Bold.eot?#iefix")format("embedded-opentype"),
+    url("/stylesheets/fonts/Carlito/Carlito-Bold.woff") format("woff"),
+    url("/stylesheets/fonts/Carlito/Carlito-Bold.ttf") format("truetype");
+    font-/style: normal;
     font-weight: normal;
 }
 
 /* font-family: "Arial-Regular"; */
 @font-face {
     font-family: "Arial-Regular";
-    src: url("stylesheets/fonts/arial/Arial-Regular.eot");
-    src: url("stylesheets/fonts/arial/Arial-Regular.eot?#iefix")format("embedded-opentype"),
-    url("stylesheets/fonts/arial/Arial-Regular.woff") format("woff"),
-    url("stylesheets/fonts/arial/Arial-Regular.ttf") format("truetype");
-    font-style: normal;
+    src: url("/stylesheets/fonts/arial/Arial-Regular.eot");
+    src: url("/stylesheets/fonts/arial/Arial-Regular.eot?#iefix")format("embedded-opentype"),
+    url("/stylesheets/fonts/arial/Arial-Regular.woff") format("woff"),
+    url("/stylesheets/fonts/arial/Arial-Regular.ttf") format("truetype");
+    font-/style: normal;
     font-weight: normal;
 }
 
 /* font-family: "Arial-Bold"; */
 @font-face {
     font-family: "Arial-Bold";
-    src: url("stylesheets/fonts/arial/Arial-Bold.eot");
-    src: url("stylesheets/fonts/arial/Arial-Bold.eot?#iefix")format("embedded-opentype"),
-    url("stylesheets/fonts/arial/Arial-Bold.woff") format("woff"),
-    url("stylesheets/fonts/arial/Arial-Bold.ttf") format("truetype");
-    font-style: normal;
+    src: url("/stylesheets/fonts/arial/Arial-Bold.eot");
+    src: url("/stylesheets/fonts/arial/Arial-Bold.eot?#iefix")format("embedded-opentype"),
+    url("/stylesheets/fonts/arial/Arial-Bold.woff") format("woff"),
+    url("/stylesheets/fonts/arial/Arial-Bold.ttf") format("truetype");
+    font-/style: normal;
     font-weight: normal;
 }
 
 /* font-family: "Arial-Italic"; */
 @font-face {
     font-family: "Arial-Italic";
-    src: url("stylesheets/fonts/arial/Arial-Italic.eot");
-    src: url("stylesheets/fonts/arial/Arial-Italic.eot?#iefix")format("embedded-opentype"),
-    url("stylesheets/fonts/arial/Arial-Italic.woff") format("woff"),
-    url("stylesheets/fonts/arial/Arial-Italic.ttf") format("truetype");
+    src: url("/stylesheets/fonts/arial/Arial-Italic.eot");
+    src: url("/stylesheets/fonts/arial/Arial-Italic.eot?#iefix")format("embedded-opentype"),
+    url("/stylesheets/fonts/arial/Arial-Italic.woff") format("woff"),
+    url("/stylesheets/fonts/arial/Arial-Italic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -157,6 +157,14 @@ p.footer_subtext {
 .table > tbody > tr > td, 
 .table > tfoot > tr > td {
 	border-top: 1px solid transparent;
+}
+
+.prod_name p {
+	font-family: "Carlito-Bold";
+	padding-top: 100px;
+	font-size: 40px;
+	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;	
 }
 
 /*=============================================================================================== 
