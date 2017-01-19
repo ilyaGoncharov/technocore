@@ -10,11 +10,19 @@ function show(dropdown) {
 		marker2.style.display="block";
 		drop.style.border="1px solod yellow"
 	    status = 1;
-
 	} else {
 		dropdown.style.display= "none";
 		marker.style.display="block";
 		marker2.style.display="none";
 	    status = 0;
 	} 
+};
+
+function hide(dropdown) {
+	if (status == 1) {
+		dropdown.style.display= "none";
+		marker.style.display="block";
+		marker2.style.display="none";
+	    status = 0;
+	} else {} 
 };

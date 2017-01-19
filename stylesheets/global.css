@@ -34,6 +34,8 @@ html, body {
 	overflow-x: hidden;
 	/* overflow-y: hidden; */ 
 	z-index: 0;
+	position: relative;
+	color: #2A4069;
 }	
 
 /* font-family: "HelveticaNeueCyr-Light"; */
@@ -70,8 +72,25 @@ html, body {
 } */
 
 p {
-	margin-bottom: 0px;
+	margin-bottom: 0px
 }
+
+p.footer_subtext_head,
+p.footer_subtext {
+	margin-bottom: 0px !important;
+}
+
+.table > thead > tr > th, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > tbody > tr > td, 
+.table > tfoot > tr > td {
+	border-top: 1px solid transparent;
+}
+
+
+
 
 /*=============================================================================================== 
 .: HEADER :. 
