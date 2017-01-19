@@ -1,0 +1,99 @@
+#marker {
+  left: 240px !important;
+}
+
+#myNavbar li:nth-child(1):hover ul div {
+  -webkit-transform: translate(-240px, 0);
+  -moz-transform: translate(-240px, 0);
+  -ms-transform: translate(-240px, 0);
+  transform: translate(-240px, 0);
+}
+
+#myNavbar li:nth-child(1):hover ~ #marker {
+  -webkit-transform: translate(-240px, 0);
+  -moz-transform: translate(-240px, 0);
+  -ms-transform: translate(-240px, 0);
+  transform: translate(-240px, 0);
+}
+
+#myNavbar li:nth-child(2):hover ul div {
+  -webkit-transform: translate(-120pxpx, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  transform: translate(-120px, 0);
+}
+#myNavbar li:nth-child(2):hover ~ #marker {
+  -webkit-transform: translate(-120px, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  transform: translate(-120px, 0);
+}
+
+#myNavbar li:nth-child(3):hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#myNavbar li:nth-child(3):hover ~ #marker {
+  -webkit-transform: translate(0px, 0);
+  -moz-transform: translate(0px, 0);
+  -ms-transform: translate(0px, 0);
+  transform: translate(0px, 0);
+}
+
+#myNavbar li:nth-child(4):hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#myNavbar li:nth-child(4):hover ~ #marker {
+  -webkit-transform: translate(360px, 0);
+  -moz-transform: translate(360px, 0);
+  -ms-transform: translate(360px, 0);
+  transform: translate(360px, 0);
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	bottom: 32px;
+	left: 0px;
+}
+
+.julo_footer {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	bottom: 0px;
+	left: 0px;
+}
+
+#googlemaps { 
+  height: 750px; 
+  width: 100%; 
+  position:absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: 3; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#contactform { 
+  position: relative; 
+  z-index: 1; /* The z-index should be higher than Google Maps */
+  width: 300px;
+  margin: 60px auto 0;
+  padding: 10px;
+  background: black;
+  height: auto;
+  opacity: .45; /* Set the opacity for a slightly transparent Google Form */ 
+  color: white;
+}
