@@ -93,9 +93,9 @@ footer {
 #contactform {  
   z-index: 2; /* The z-index should be higher than Google Maps */
   width: 450px;
-  height: 350px;
+  height: 400px;
   background: #fff;
-  margin-top: 250px;
+  margin-top: 150px;
 
   padding: 30px;
   opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
