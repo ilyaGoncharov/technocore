@@ -79,7 +79,7 @@
 					<div id="marker"></div>
 					<li role="presentation" class="divider"></li>
 					<li class="flag_link"> 
-						<a href="index_eng.html"> Ru 
+						<a href="contacts_eng.html"> En
 							<img src="pics/en_pic.png" alt="" class="flag">
 						</a> 
 					</li>
@@ -88,56 +88,25 @@
 	    </div>
 	</nav>
 
-	<div id="map"></div>
-	<div id="contactform">
-	</div>
-
-
-	<footer class="container-fluid index_footer">
-	   <div class="container">
-			<div class="row">
-				<div class="col-sm-2">
-					<p class="footer_subtext_head">
-						<strong>Телефон:</strong>
-					</p>
-					<p class="footer_subtext"> 
-						+7 (496) 539 60 25 
-					</p>	
-				</div>
-
-				<div class="col-sm-offset-1 col-sm-2">
-					<p class="footer_subtext_head">
-						<strong>E-mail:</strong>
-					</p>
-					
-					<p class="footer_subtext">
-						<a href="mailto:info@texnocor.com?subject=feedback" "">
-							info@texnocor.com
-						</a>
-					</p>	
-				</div>
-
-				<div class="col-sm-offset-1 col-sm-3">
-					<p class="footer_subtext_head">
-						<strong>Адрес:</strong>
-					</p>
-					
-					<p class="footer_subtext">
-						г. Пушкино, 
-						ул. Тургеньева, 24
-					</p>
-				</div>
-
-				<div class="col-sm-3">
-					<button type="button" class="btn btn-primary footer_btn">
-						<a href="contacts.html">
-							Написать письмо
-						</a>
-					</button>
-				</div>
+	<div class="container">
+		<div id="map"></div>
+		<div id="contactform" class="col-sm-3">
+			<div class="col-sm-offset-2 col-sm-8" style="margin-bottom: 20px;">
+				<p class="text-subhead">Телефон</p>
+				<p class="text-head-description">+7 (496) 539 60 25<p>
+				<p class="text-subhead">E-mail</p>
+				<p class="text-head-description">info@texnokor.com<p>
+				<p class="text-subhead">Адрес</p>
+				<p class="text-head-description">г. Пушкино, ул. Тургенева, 24<p>
 			</div>
-		</div>
-	</footer>
+			<button type="button" class="col-sm-offset-2 col-sm-8  btn btn-primary contact_btn">
+				<a href="mailto:info@texnocor.com?subject=feedback">
+					Написать письмо
+				</a>
+			</button>
+	</div>
+	</div>
+	
 
 	<div class="container-fluid julo_footer">
 		<div class="container">
@@ -156,13 +125,13 @@
 	function myMap() {
     var mapCanvas = document.getElementById("map");
     var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.2),
+        center: new google.maps.LatLng(55.7485169, 37.0720766),
         zoom: 10
     };
     var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATo6cQz-VSOtrpILcipJ_dqD_vmN6iFsM"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATo6cQz-VSOtrpILcipJ_dqD_vmN6iFsM&callback=myMap"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/bootstrap.js"></script>
 <script src="js/script.js"></script>

@@ -1,3 +1,7 @@
+body {
+	height: 750px;
+}
+
 #marker {
   left: 240px !important;
 }
@@ -80,20 +84,70 @@ footer {
 #map { 
   height: 750px; 
   width: 100%; 
-  position:absolute; 
+  position: absolute; 
   top: 0; 
   left: 0; 
-  z-index: 3; /* Set z-index to 0 as it will be on a layer below the contact form */
+  z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
 }
 
-#contactform { 
-  position: relative; 
-  z-index: 1; /* The z-index should be higher than Google Maps */
-  width: 300px;
-  margin: 60px auto 0;
-  padding: 10px;
-  background: black;
-  height: auto;
-  opacity: .45; /* Set the opacity for a slightly transparent Google Form */ 
-  color: white;
+#contactform {  
+  z-index: 2; /* The z-index should be higher than Google Maps */
+  width: 450px;
+  height: 350px;
+  background: #fff;
+  margin-top: 250px;
+
+  padding: 30px;
+  opacity: 1; /* Set the opacity for a slightly transparent Google Form */ 
+  color: #0F1F39;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
 }
+
+
+p.text-subhead {
+	margin-top: 10px;
+}
+
+p.text-subhead-description {
+	padding-bottom: 10px;
+}
+
+.contact_btn {
+	/* width: 200px;
+	margin: 0 auto; */
+	font-size: 14px;
+	background: transparent;
+	color: #7B9DD0;
+	border: 1px solid #0F1F39;
+	border-radius: 2px;
+}
+
+.contact_btn a {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	color: #0F1F39;
+}
+
+.contact_btn a:hover{
+	font-weight: 400;
+}
+
+.contact_btn:hover {
+	background: transparent;
+	border: 2px solid #0F1F39;
+}
+
+.contact_btn:hover a {
+	background: transparent;
+	color: #0F1F39;
+}
+
+.contact_btn:active,
+.contact_btn:focus {
+	background: transparent !important;
+	color: #0F1F39 !important;
+	outline: none !important;
+	border: 2px solid #0F1F39 !important;
+}
+
