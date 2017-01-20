@@ -65,17 +65,18 @@
 
 .prod_name p {
   font-family: "Carlito-Bold";
-  padding-top: 60px;
+  padding-top: 65px;
   padding-left: 20px;
-  font-size: 45px;
+  font-size: 40px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }
 
 .prod_pic {
     position: absolute;
-    right: 100px;
-    top: 35px;
+    width: 420px;
+    right: 150px;
+    top: 45px;
     z-index: 0;
 }
 
@@ -99,7 +100,7 @@
 
 .prod_menu ul {
 	list-style: none; 
-	padding-left: 170px;
+	padding-left: 160px;
 	padding-top: 100px;
 }
 

@@ -232,7 +232,7 @@ p.text-head {
 	color: #0F1F3B;
 	list-style: none;
 	border-radius: 0px 0px 2px 2px;
-  z-index: 2;
+  z-index: 5;
 }
 
 #dropdown li:hover,
