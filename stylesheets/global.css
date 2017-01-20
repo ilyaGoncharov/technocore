@@ -253,6 +253,7 @@ p.text-head {
 }
 
 .flag_link {
+  margin-right: 30px;
 	width: 50px;
 	opacity: 0.8;
 }
@@ -260,7 +261,6 @@ p.text-head {
 .flag_link:hover {
 	opacity: 1;
 }
-
 
 img.flag {
 	width: 15px;
@@ -332,9 +332,15 @@ footer {
 	font-size: 15px;
 	text-align: left;
 	height: 100px;
-	padding-top: 35px;
+	
 	background: #0f1f39;
 	color: #7B9DD0;
+}
+
+.index_footer .container {
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 40px;
 }
 
 .footer_subtext_head {
@@ -403,7 +409,7 @@ footer {
 	font-size: 10px;
 	color: #7F8CA5;
 	margin: 0;
-	padding-left: 0;
+	padding-left: 15px;
 	padding-top: 8px;
 }
 
