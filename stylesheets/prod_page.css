@@ -58,9 +58,33 @@
 .prod_jumbotron {
 	height: 350px;
 	color: #fff;
-	background: #7f8ca5;
+	background: #2A4069;
 	z-index: 0;
 	margin-bottom: 0px;
+}
+
+.prod_name p {
+  font-family: "Carlito-Bold";
+  padding-top: 60px;
+  padding-left: 20px;
+  font-size: 45px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.prod_pic {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    z-index: 0;
+}
+
+.prod_pic2 {
+    position: absolute;
+    width: 450px;
+    right: 100px;
+    top: 40px;
+    z-index: 0;
 }
 
 .prod_container {

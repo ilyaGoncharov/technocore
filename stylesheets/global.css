@@ -125,7 +125,6 @@ p.text-head-description {
 	color: #2A4069;
 	font-size: 16px;
 	font-weight: 400;
-
 }
 
 p.text-subhead {
@@ -160,12 +159,10 @@ p.footer_subtext {
 	border-top: 1px solid transparent;
 }
 
-.prod_name p {
-	font-family: "Carlito-Bold";
-	padding-top: 100px;
-	font-size: 40px;
-	-webkit-font-smoothing: antialiased;
- 	-moz-osx-font-smoothing: grayscale;	
+p.text-head {
+    float: left;
+    clear: both;
+    padding-bottom: 20px;
 }
 
 /*=============================================================================================== 
@@ -235,6 +232,7 @@ p.footer_subtext {
 	color: #0F1F3B;
 	list-style: none;
 	border-radius: 0px 0px 2px 2px;
+  z-index: 2;
 }
 
 #dropdown li:hover,
