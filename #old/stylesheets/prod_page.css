@@ -1,0 +1,162 @@
+#marker {
+  left: 120px !important;
+}
+
+#myNavbar li:nth-child(1):hover ul div {
+  -webkit-transform: translate(-120px, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  transform: translate(-120px, 0);
+}
+
+#myNavbar li:nth-child(1):hover ~ #marker {
+  -webkit-transform: translate(-120px, 0);
+  -moz-transform: translate(-120px, 0);
+  -ms-transform: translate(-120px, 0);
+  transform: translate(-120px, 0);
+}
+
+#myNavbar li:nth-child(2):hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#myNavbar li:nth-child(2):hover ~ #marker {
+  -webkit-transform: translate(0px, 0);
+  -moz-transform: translate(0px, 0);
+  -ms-transform: translate(0px, 0);
+  transform: translate(0px, 0);
+}
+
+#myNavbar li:nth-child(3):hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#myNavbar li:nth-child(3):hover ~ #marker {
+  -webkit-transform: translate(120px, 0);
+  -moz-transform: translate(120px, 0);
+  -ms-transform: translate(120px, 0);
+  transform: translate(120px, 0);
+}
+
+#myNavbar li:nth-child(4):hover ul div {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+#myNavbar li:nth-child(4):hover ~ #marker {
+  -webkit-transform: translate(360px, 0);
+  -moz-transform: translate(360px, 0);
+  -ms-transform: translate(360px, 0);
+  transform: translate(360px, 0);
+}
+
+.prod_jumbotron {
+	height: 350px;
+	color: #fff;
+	background: #2A4069;
+	z-index: 0;
+	margin-bottom: 0px;
+}
+
+.prod_name p {
+  font-family: "Carlito-Bold";
+  padding-top: 65px;
+  padding-left: 20px;
+  font-size: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.prod_pic {
+    position: absolute;
+    width: 420px;
+    right: 150px;
+    top: 45px;
+    z-index: 0;
+}
+
+.prod_pic2 {
+    position: absolute;
+    width: 450px;
+    right: 100px;
+    top: 45px;
+    z-index: 0;
+}
+
+.prod_container {
+	padding-left: 0px;
+}
+
+.prod_menu {
+	background: #F4F5F7;
+	height: 4800px;
+	text-align: left;
+}
+
+.prod_menu ul {
+	list-style: none; 
+	padding-left: 160px;
+	padding-top: 100px;
+}
+
+.prod_menu ul li {
+	margin-bottom: -5px;
+}
+
+.prod_links {
+	color: #7F8CA5;
+	font-size: 18px;
+}
+
+.prod_links:hover {
+	
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+	background: transparent;
+	color: #0F1F39;
+	font-weight: 600;
+}
+
+.nav > li > a:hover, 
+.nav > li > a:focus {
+	background: transparent;
+	color: #0F1F39;
+	font-weight: 600;
+}
+
+.affix {
+	top: 150px;
+	/* -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; */
+}
+
+.affix-top {
+    position: static;
+    /* top: 10px; */
+}
+
+.prod_texts {
+	padding-top: 100px;
+	background: #fff;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+.prod_final_textblock {
+	padding-bottom: 50px ;
+}
+
+.index_footer .container {
+
+    padding-right: 10px;
+}
+
+
