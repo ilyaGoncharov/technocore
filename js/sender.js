@@ -1,10 +1,10 @@
 $('#feedbackForm').submit(function(e) {
-	var name = document.getElementById('feedbackName'),
-		email = document.getElementById('feedbackMail'),
-		corporation = document.getElementById('feedbackCorp'),
-		message = document.getElementById('feedbackTextarea');
+	var name = document.getElementById('ffname'),
+		email = document.getElementById('ffmail'),
+		corporation = document.getElementById('ffcorp'),
+		message = document.getElementById('fftext');
 
-	if (!name.value || !email.value || !message.value) {
+	if (!name.value || !email.value || !message.value || !corporation) {
 		alertify.error('Проверьте введенные данные!')
 	}	else {
 		$.ajax({
