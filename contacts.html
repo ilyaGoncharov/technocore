@@ -35,7 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/index_queries.css" media="screen"> -->
 
 	<link rel="icon" type="image/png" href="pics/favicon.png" sizes="16x16"/>
-	<!-- <link rel="icon" type="image/png" href="http:// ./img/favicon-32x32.png" sizes="32x32"/> -->
+	<link rel="icon" type="image/png" href="pics/favicon.png" sizes="32x32"/>
 
 	<!--[if lt IE 7]>
 		<p class="browsehappy">Вы используете <strong> очень устаревшую </strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/"> обновите его</a>, чтобы улучшить свою производительность в сети</p>
@@ -121,15 +121,23 @@
 	</div>
 	</div>
 </body>
-<script>
+<script type="text/javascript">
 	function myMap() {
-    var mapCanvas = document.getElementById("map");
-    var mapOptions = {
-        center: new google.maps.LatLng(56.01, 37.85),
-        zoom: 11
-    };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-	}
+		var myCenter = new google.maps.LatLng(56.011346, 37.826670);
+		var myCenter2 = new google.maps.LatLng(56.010890, 37.847666);
+		var myLocation = new google.maps.LatLng(56.010705, 37.854232);
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {center: myCenter, zoom: 14, disableDefaultUI: true};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+		var marker = new google.maps.Marker({position: myLocation});
+		marker.setMap(map);
+
+		marker.addListener('click', function() {
+	    map.setZoom(16);
+	    map.setCenter(myCenter2);
+
+	  	});
+	};
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATo6cQz-VSOtrpILcipJ_dqD_vmN6iFsM&callback=myMap"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>

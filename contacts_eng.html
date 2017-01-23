@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<title>Технокор</title>
 	<meta name="description" content="Научно-производственное объединение"/>
@@ -35,7 +35,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/index_queries.css" media="screen"> -->
 
 	<link rel="icon" type="image/png" href="pics/favicon.png" sizes="16x16"/>
-	<!-- <link rel="icon" type="image/png" href="http:// ./img/favicon-32x32.png" sizes="32x32"/> -->
+	<link rel="icon" type="image/png" href="pics/favicon.png" sizes="32x32"/>
 
 	<!--[if lt IE 7]>
 		<p class="browsehappy">Вы используете <strong> очень устаревшую </strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/"> обновите его</a>, чтобы улучшить свою производительность в сети</p>
@@ -56,7 +56,7 @@
 	 	<div class="container">
 			<div class="navbar-header col-sm-2">
 			  <a class="navbar-brand " href="index.html">
-				  <img src="pics/techcore_logo.svg" alt="[ logo ] " id="logo">
+				  <img src="pics/techcore_logo_eng.svg" alt="[ logo ] " id="logo">
 			  </a>
 			</div>
 
@@ -79,8 +79,8 @@
 					<div id="marker"></div>
 					<li role="presentation" class="divider"></li>
 					<li class="flag_link"> 
-						<a href="index.html"> Ru
-							<img src="pics/en_pic.png" alt="" class="flag">
+						<a href="contacts.html"> Ru
+							<img src="pics/ru_pic.png" alt="" class="flag">
 						</a> 
 					</li>
 		  		</ul>
@@ -99,39 +99,86 @@
 				<p class="text-subhead">Address</p>
 				<p class="text-head-description">Pushkno, Turgen'eva st. 24<p>
 			</div>
-			<button type="button" class="col-sm-offset-2 col-sm-8  btn btn-primary contact_btn">
-				<a href="mailto:info@texnocor.com?subject=feedback">
+			<button type="button" class="col-sm-offset-2 col-sm-8 btn btn-primary contact_btn" data-toggle="modal" data-target="#feedbackContainer">
+				<a href="">
+					<!-- mailto:info@texnocor.com?subject=feedback -->
 					Mail us
 				</a>
 			</button>
-	</div>
+			
+		</div>
 	</div>
 	
+	<div class="modal fade" id="feedbackContainer" role="dialog">
+		<div class="modal-dialog modal-lg">
+		  	<div class="modal-content">
+			   	<form id="feedbackForm">
+			   	<!-- method="POST" action="http://formspree.io/karnebero@gmail.com" -->
+			   		<div class="form-group">
+					    <!-- <label for="email">Email address:</label> -->
+					    <input type="text"  class="form-control" id="name"  placeholder="Name">
+					    <!-- <input type="text" name="_gotcha" style="display:none"> -->
+				    </div>
+					<div class="form-group">
+						<input type="text"  class="form-control" id="corp" placeholder="Company">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="mail" name="_replyto" placeholder="E-mail">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="8" id="textarea" placeholder="Text"></textarea>
+				    </div>
+					<button type="submit" class="btn btn-default">Отправить</button>
+				</form>
+				<!-- <div class="modal-header">
+		      		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		      		<h4 class="modal-title">Modal Header</h4>
+		    	</div>
+			    <div class="modal-body">
+			      <p>This is a large modal.</p>
+			    </div>
+			    <div class="modal-footer">
+			      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			   	</div>-->
+		  	</div>
+		</div>
+	</div>
 
 	<div class="container-fluid julo_footer">
 			<div class="container">
-				<div class="col-sm-3 copyright">
-					[2017] All rights reserved. JSC “TehnoKor”
+				<div class="col-sm-4 copyright">
+					[2017] All rights reserved. JSC “NPO TehnoKor”
 				</div>
-				<div class="col-sm-offset-7 col-sm-2 julo_link">
+				<div class="col-sm-offset-6 col-sm-2 julo_link">
 					Developed by <a href="http://startjulo.ru/">JULO</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </body>
-<script>
+<script type="text/javascript">
 	function myMap() {
-    var mapCanvas = document.getElementById("map");
-    var mapOptions = {
-        center: new google.maps.LatLng(56.01, 37.85),
-        zoom: 11
-    };
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-	}
+		var myCenter = new google.maps.LatLng(56.011346, 37.826670);
+		var myCenter2 = new google.maps.LatLng(56.010890, 37.847666);
+		var myLocation = new google.maps.LatLng(56.010705, 37.854232);
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {center: myCenter, zoom: 14, disableDefaultUI: true};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+		var marker = new google.maps.Marker({position: myLocation});
+		marker.setMap(map);
+
+		marker.addListener('click', function() {
+	    map.setZoom(16);
+	    map.setCenter(myCenter2);
+
+	  	});
+	};
 </script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATo6cQz-VSOtrpILcipJ_dqD_vmN6iFsM&callback=myMap"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/bootstrap.js"></script>
-<script src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/alertify.js"></script>
+<script type="text/javascript" src="js/sender.js"></script>
 </html>

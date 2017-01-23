@@ -44,7 +44,7 @@ p.index_centered_text {
 .jumbotron h1,
 .jumbotron p {
 	position: absolute;
-	width: 80%;
+	width: 70%;
 	z-index: 3;
 	color: #fff;
 }
