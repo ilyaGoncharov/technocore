@@ -88,6 +88,26 @@
 	    </div>
 	</nav>
 
+	<div class="modal fade" id="feedbackContainer" role="dialog" data-dismiss="modal">
+		<div class="modal-dialog modal-lg">
+		  	<div class="modal-content">
+			   	<form id="ff">
+			   	<!-- id="feedbackForm" -->
+			   		<div class="form-group">
+					    <input type="text"  class="form-control" id="ffname" name="Имя" placeholder="Имя*">
+					    <input type="text"  class="form-control" id="ffcorp" name="E-mail" placeholder="Компания">
+						<input type="email" class="form-control" id="ffmail" name="Ответить" placeholder="E-mail*">
+					    <textarea class="form-control" rows="8" id="fftext" name="Текст сообщения" placeholder="Текст письма*"></textarea>
+					    <input type="text" name="_gotcha" style="display:none">
+					    <input type="hidden" name="_cc" value="tkr.confidant@yandex.ru">
+				    </div>
+					<button type="submit" class="btn btn-default">Отправить</button>
+					<p>* - поля обязательные для заполнения</p>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<div class="container">
 		<div id="map"></div>
 		<div id="contactform" class="col-sm-3">
@@ -99,8 +119,9 @@
 				<p class="text-subhead">Адрес</p>
 				<p class="text-head-description">г. Пушкино, ул. Тургенева, 24<p>
 			</div>
-			<button type="button" class="col-sm-offset-2 col-sm-8  btn btn-primary contact_btn">
-				<a href="mailto:info@texnocor.com?subject=feedback">
+			<button type="button" class="col-sm-offset-2 col-sm-8 btn btn-primary contact_btn" data-toggle="modal" data-target="#feedbackContainer">
+				<a href="#">
+					<!-- mailto:info@texnocor.com?subject=feedback -->
 					Написать письмо
 				</a>
 			</button>
@@ -120,7 +141,9 @@
 		</div>
 	</div>
 	</div>
+
 </body>
+
 <script type="text/javascript">
 	function myMap() {
 		var myCenter = new google.maps.LatLng(56.011346, 37.826670);
@@ -142,5 +165,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATo6cQz-VSOtrpILcipJ_dqD_vmN6iFsM&callback=myMap"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/bootstrap.js"></script>
-<script src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/sender.js"></script>
 </html>

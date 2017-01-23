@@ -132,37 +132,30 @@
 					      </tr>
 					      <tr>
 					        <td>•  напряжение заряда</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>В 12—350</td>
 					      </tr>
 					      <tr>
 					        <td>•  энергия</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>кДж 5—150</td>
 					      </tr>
 					      <tr>
 					        <td>•  ток разряда</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>кА 0,5—5000</td>
 					      </tr>
 					      <tr>
 					        <td>•  мощность импульсного разряда</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>кВт до 50</td>
 					      </tr>
 					      <tr>
 					        <td>•  удельная энергия</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>кДж/дм3 1—5</td>
 					      </tr>
 					      <tr>
 					        <td>•  температурный диапазон</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>от – 45°С до +60°С </td>
 					      </tr>
 					       <tr>
 					        <td>•  срок службы</td>
-					        <!-- <td>Dooley</td> -->
 					        <td>~ до 15</td>
 					      </tr>
 					    </tbody>
@@ -225,7 +218,31 @@
 					      </tr>
 					 </table>	
 
-					<!--  <button type=""></button> -->
+					 <div class="modal fade col-sm-12" id="Us_modal" role="dialog" data-dismiss="modal">
+						<div class="modal-dialog modal-lg">
+						  	<div class="modal-content">
+							   	<form id="ff">
+							   	<!-- id="feedbackForm" -->
+							   		<div class="form-group">
+									    <input type="text"  class="form-control" id="ffname" name="Имя" placeholder="Имя*">
+									    <input type="text"  class="form-control" id="ffcorp" name="E-mail" placeholder="Компания">
+										<input type="email" class="form-control" id="ffmail" name="Ответить" placeholder="E-mail*">
+									    <textarea class="form-control" rows="8" id="fftext" name="Текст сообщения" placeholder="Текст письма*"></textarea>
+									    <input type="text" name="_gotcha" style="display:none">
+									    <input type="hidden" name="_cc" value="tkr.confidant@yandex.ru">
+								    </div>
+									<button type="submit" class="btn btn-default">Отправить</button>
+									<p>* - поля обязательные для заполнения</p>
+								</form>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="col-sm-offset-2 col-sm-8 btn btn-primary contact_btn" data-toggle="modal" data-target="#Us_modal">
+						<a href="#">
+							<!-- mailto:info@texnocor.com?subject=feedback -->
+							Технические характеристики
+						</a>
+					</button>
 
 					<p class="prod_final_textblock"></p>
 

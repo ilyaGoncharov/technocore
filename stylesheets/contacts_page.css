@@ -245,7 +245,7 @@ p.text-subhead-description {
 } 
 
 .alert--loading,
-.aalert--success,
+.alert--success,
 .alert--error {
 	color: #fff;
 }
