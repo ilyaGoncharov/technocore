@@ -3,60 +3,60 @@ body {
 }
 
 #marker {
-  left: 240px !important;
+	left: 240px !important;
 }
 
 #myNavbar li:nth-child(1):hover ul div {
-  -webkit-transform: translate(-240px, 0);
-  -moz-transform: translate(-240px, 0);
-  -ms-transform: translate(-240px, 0);
-  transform: translate(-240px, 0);
+	-webkit-transform: translate(-240px, 0);
+	-moz-transform: translate(-240px, 0);
+	-ms-transform: translate(-240px, 0);
+	transform: translate(-240px, 0);
 }
 
 #myNavbar li:nth-child(1):hover ~ #marker {
-  -webkit-transform: translate(-240px, 0);
-  -moz-transform: translate(-240px, 0);
-  -ms-transform: translate(-240px, 0);
-  transform: translate(-240px, 0);
+	-webkit-transform: translate(-240px, 0);
+	-moz-transform: translate(-240px, 0);
+	-ms-transform: translate(-240px, 0);
+	transform: translate(-240px, 0);
 }
 
 #myNavbar li:nth-child(2):hover ul div {
-  -webkit-transform: translate(-120pxpx, 0);
-  -moz-transform: translate(-120px, 0);
-  -ms-transform: translate(-120px, 0);
-  transform: translate(-120px, 0);
+	-webkit-transform: translate(-120pxpx, 0);
+	-moz-transform: translate(-120px, 0);
+	-ms-transform: translate(-120px, 0);
+	transform: translate(-120px, 0);
 }
 #myNavbar li:nth-child(2):hover ~ #marker {
-  -webkit-transform: translate(-120px, 0);
-  -moz-transform: translate(-120px, 0);
-  -ms-transform: translate(-120px, 0);
-  transform: translate(-120px, 0);
+	-webkit-transform: translate(-120px, 0);
+	-moz-transform: translate(-120px, 0);
+	-ms-transform: translate(-120px, 0);
+	transform: translate(-120px, 0);
 }
 
 #myNavbar li:nth-child(3):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
 }
 #myNavbar li:nth-child(3):hover ~ #marker {
-  -webkit-transform: translate(0px, 0);
-  -moz-transform: translate(0px, 0);
-  -ms-transform: translate(0px, 0);
-  transform: translate(0px, 0);
+	-webkit-transform: translate(0px, 0);
+	-moz-transform: translate(0px, 0);
+	-ms-transform: translate(0px, 0);
+	transform: translate(0px, 0);
 }
 
 #myNavbar li:nth-child(4):hover ul div {
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	-moz-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
 }
 #myNavbar li:nth-child(4):hover ~ #marker {
-  -webkit-transform: translate(360px, 0);
-  -moz-transform: translate(360px, 0);
-  -ms-transform: translate(360px, 0);
-  transform: translate(360px, 0);
+	-webkit-transform: translate(360px, 0);
+	-moz-transform: translate(360px, 0);
+	-ms-transform: translate(360px, 0);
+	transform: translate(360px, 0);
 }
 
 .navbar {
@@ -82,28 +82,27 @@ footer {
 }
 
 #map { 
-  height: 750px; 
-  width: 100%; 
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  z-index: 0; 
+	height: 750px; 
+	width: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0; 
 }
 
 #contactform {  
-  z-index: 2; /* The z-index should be higher than Google Maps */
-  width: 450px;
-  height: 400px;
-  background: #fff;
-  margin-top: 150px;
+	z-index: 2; /* The z-index should be higher than Google Maps */
+	width: 450px;
+	height: 400px;
+	background: #fff;
+	margin-top: 150px;
 
-  padding: 30px;
-  opacity: 0.9; /* Set the opacity for a slightly transparent Google Form */ 
-  color: #0F1F39;
-  box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
-  border-radius: 2px;
+	padding: 30px;
+	opacity: 0.9; /* Set the opacity for a slightly transparent Google Form */ 
+	color: #0F1F39;
+	box-shadow: 0 1px 0 0 rgba(0,0,0,0.10);
+	border-radius: 2px;
 }
-
 
 p.text-subhead {
 	margin-top: 20px;
@@ -136,13 +135,14 @@ p.text-subhead-description {
 }
 
 .contact_btn:hover {
-	background:  #FAC864;
-  color: #0F1F39;
+	background: transparent;
+	color: #0F1F39;
+	border: 2px solid #0F1F39;
 }
 
 .contact_btn:hover a {
 	/* background: #FAC864; */
-  color: #0F1F39;
+	color: #0F1F39;
 }
 
 .contact_btn:active,
@@ -151,19 +151,101 @@ p.text-subhead-description {
 	color: #0F1F39 !important;
 	outline: none !important;
 	border: 1px solid #0F1F39;
-  border-radius: 2px;
+	border-radius: 2px;
 }
 
 #feedbackContainer > div > div {
-  height: 450px;
-  background: transparent;
-  box-shadow: none;
-  border: none;
+	height: 400px;
+	width: 60%;
+	margin-left: 20%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
 }
 
 #feedbackContainer > div > div > form {
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 150px;
+	padding: 10px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 150px;
 }
 
+.form-group input {
+	height: 36px;
+	margin-bottom: 10px;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-radius: 2px;
+	color: #0F1F39;
+	font-weight: 500;
+	background: #AAB3C3;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #0F1F39;
+	opacity: .7;
+}
+
+.form-group textarea {
+	background: #AAB3C3;
+}
+
+.form-group input:active,
+.form-group input:focus {
+	border: 1px solid #0F1F39 !important;
+	outline: none !important;
+	box-shadow: none;
+	background: #fff;
+}
+
+.form-group input:hover,
+.form-group textarea:hover {
+/* 	border: 1px solid #FAC864; */
+	border: 1px solid #0F1F39;
+}
+
+.form-group textarea:active,
+.form-group textarea:focus {
+	border: 1px solid #0F1F39 !important;
+	outline: none !important;
+	box-shadow: none;
+	color: #0F1F39;
+	font-weight: 500;
+	background: #fff;
+}
+
+#feedbackContainer > div > div > form > button {
+	border: 1px solid #fff;
+	font-weight: 100;
+	border-radius: 2px;
+	background: transparent;
+	color: #fff;
+	height: 36px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#feedbackContainer > div > div > form > button:hover {
+	border: 2px solid #fff;
+	font-weight: 400;
+	background: transparent;
+	color: #fff;
+	height: 36px;
+}
+
+#feedbackContainer > div > div > form > p {
+	margin-top: 40px;
+	color: #999999;
+}
+
+.modal-backdrop { 
+	background-color: #0F1F39; 
+	opacity: 0.8 !important;
+} 
+
+.alert--loading,
+.aalert--success,
+.alert--error {
+	color: #fff;
+}

@@ -89,6 +89,27 @@
 	    </div>
 	</nav>
 
+	<div class="modal fade" id="feedbackContainer" role="dialog" data-dismiss="modal">
+		<div class="modal-dialog modal-lg">
+		  	<div class="modal-content">
+			   	<form id="ff" action="https://formspree.io/karnebero@gmail.com">
+			   	<!-- id="feedbackForm" -->
+			   		<div class="form-group">
+					    <input type="text"  class="form-control" id="ffname" name="Имя" placeholder="Name*">
+					    <input type="text"  class="form-control" id="ffcorp" name="E-mail" placeholder="Company">
+						<input type="email" class="form-control" id="ffmail" name="Ответить" placeholder="E-mail*>
+					    <textarea class="form-control" rows="8" id="fftext" name="Текст сообщения" placeholder="Message*"></textarea>
+					    <input type="text" name="_gotcha" style="display:none">
+					    <input type="hidden" name="_cc" value="tkr.confidant@yandex.ru">
+				    </div>
+					<button type="submit" class="btn btn-default">Send</button>
+					<p>* - you have to fill this fields</p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
 	<div class="container">
 		<div id="map"></div>
 		<div id="contactform" class="col-sm-3">
@@ -110,31 +131,6 @@
 		</div>
 	</div>
 	
-	<div class="modal fade" id="feedbackContainer" role="dialog">
-		<div class="modal-dialog modal-lg">
-		  	<div class="modal-content">
-			   	<form method="POST" action="https://formspree.io/karnebero@gmail.com">
-			   	<!-- id="feedbackForm" -->
-			   		<div class="form-group">
-					    <input type="text"  class="form-control" id="ffname" name="name" placeholder="Name">
-					    <input type="text" name="_gotcha" style="display:none">
-				    </div>
-					<div class="form-group">
-						<input type="text"  class="form-control" id="ffcorp" name="email" placeholder="Company">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control" id="ffmail" name="_replyto" placeholder="E-mail">
-					</div>
-					<div class="form-group">
-						<textarea class="form-control" rows="8" id="fftext" placeholder="Text"></textarea>
-				    </div>
-					<button type="submit" class="btn btn-default">Отправить</button>
-					<!-- data-dismiss="modal" -->
-				</form>
-			</div>
-		</div>
-	</div>
-
 	<div class="container-fluid julo_footer">
 			<div class="container">
 				<div class="col-sm-4 copyright">
@@ -162,7 +158,6 @@
 		marker.addListener('click', function() {
 	    map.setZoom(16);
 	    map.setCenter(myCenter2);
-
 	  	});
 	};
 </script>
@@ -170,7 +165,7 @@
 <script type="text/javascript" src="stylesheets/bootstrap/js/jquery.js"></script>
 <script type="text/javascript" src="stylesheets/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/alertify.js"></script>
+<!-- <script type="text/javascript" src="js/alertify.js"></script> -->
 <script type="text/javascript" src="js/sender.js"></script>
 
 </html>
