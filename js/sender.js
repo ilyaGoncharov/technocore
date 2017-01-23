@@ -1,8 +1,8 @@
 $('#feedbackForm').submit(function(e) {
-	var name = document.getElementById('name'),
-		email = document.getElementById('email'),
-		corporation = document.getElementById('corp'),
-		message = document.getElementById('textarea');
+	var name = document.getElementById('feedbackName'),
+		email = document.getElementById('feedbackMail'),
+		corporation = document.getElementById('feedbackCorp'),
+		message = document.getElementById('feedbackTextarea');
 
 	if (!name.value || !email.value || !message.value) {
 		alertify.error('Проверьте введенные данные!')
