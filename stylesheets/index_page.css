@@ -100,8 +100,8 @@ ul.index_list {
 
 #sertificate {
 	height: auto;
-	width: 80%;
- 	background: #fff;  
+	width: 100%;
+ 	background: #transparent;  
 }
 
 .modal-content {

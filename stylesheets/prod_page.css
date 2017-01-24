@@ -176,13 +176,10 @@
 #Us_modal .modal-content{
   padding: 40px;
   height: 2000px;
-  background: #fff;  
+  background: transparent;  
   z-index: 40000;
 }
 
-#Us_modal .modal-content div {
-
-}
 
 .tp_pics img{
   height: 250px;
@@ -197,3 +194,8 @@
   background-color: #0F1F39; 
   opacity: 0.8 !important;
 } 
+
+#Us_modal > div {
+    width: 80%;
+    background: #fff;
+}
