@@ -165,7 +165,7 @@ p.text-subhead-description {
 
 #feedbackContainer > div > div > form {
 	padding: 10px;
-	width: 80%;
+	width: 100%;
 	margin-left: 10%;
 	margin-top: 150px;
 }
@@ -247,4 +247,11 @@ p.text-subhead-description {
 .alert--success,
 .alert--error {
 	color: #fff;
+}
+
+#feedbackContainer > div {
+    width: 50%;
+    background: transparent;
+    border-radius: 2px;
+
 }

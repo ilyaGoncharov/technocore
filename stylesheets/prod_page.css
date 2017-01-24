@@ -173,14 +173,6 @@
   overflow-y: overlay;
 }
 
-#Us_modal .modal-content{
-  padding: 40px;
-  height: 2000px;
-  background: transparent;  
-  z-index: 40000;
-}
-
-
 .tp_pics img{
   height: 250px;
   margin-bottom: 40px ;
@@ -195,7 +187,22 @@
   opacity: 0.8 !important;
 } 
 
-#Us_modal > div {
+#Us_modal .modal-content,
+#AE16_modal .modal-content,
+#AE14_modal .modal-content,
+#PPU1_modal .modal-content  {
+  padding: 40px;
+  height: 2000px;
+  background: transparent;  
+  z-index: 40000;
+  border-radius: 2px;
+}
+
+#Us_modal > div,
+#AE16_modal > div,
+#AE14_modal > div,
+#PPU1_modal > div {
     width: 80%;
     background: #fff;
+    border-radius: 2px;
 }
