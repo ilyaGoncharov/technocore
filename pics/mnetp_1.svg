@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 214" style="enable-background:new 0 0 150 214;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#AAB3C3;}
+	.st1{fill:#0F1F39;}
+	.st2{font-family:'Carlito';}
+	.st3{font-size:22.0287px;}
+	.st4{fill:#2A4069;}
+	.st5{fill:#FAC864;}
+</style>
+<g>
+	<rect x="62.9" y="197.6" class="st0" width="77.1" height="1.1"/>
+	
+		<rect x="-20.2" y="109.4" transform="matrix(2.805939e-11 -1 1 2.805939e-11 -42.1235 177.8754)" class="st0" width="176.2" height="1.1"/>
+	<rect x="62.9" y="109.4" class="st0" width="77.1" height="1.1"/>
+	<rect x="62.9" y="65.4" class="st0" width="77.1" height="1.1"/>
+	<rect x="67.3" y="21.9" class="st0" width="72.7" height="1.1"/>
+	<text transform="matrix(1 0 0 1 43.4946 204.3105)" class="st1 st2 st3">0</text>
+	<text transform="matrix(1 0 0 1 21.165 160.2529)" class="st1 st2 st3">500</text>
+	<text transform="matrix(1 0 0 1 10 116.1963)" class="st1 st2 st3">1000</text>
+	<text transform="matrix(1 0 0 1 10 72.1387)" class="st1 st2 st3">1500</text>
+	<text transform="matrix(1 0 0 1 10 28.0811)" class="st1 st2 st3">2000</text>
+	<path class="st4" d="M78.8,200.3H67.3v-4.4h11.5c1.2,0,2.2-1,2.2-2.2V82.5c0-25.6,4.5-30.5,7.9-31.9c3-1.2,6.3,0,9.9,3.6
+		c7.4,7.4,12.7,17.3,17.4,26c7.1,13.1,13.2,24.4,23.9,24.4v4.4c-13.3,0-20.3-13-27.7-26.7c-4.8-8.8-9.7-18-16.7-24.9
+		c-2.1-2.1-4-3.1-5.1-2.6c-1.2,0.5-5.1,4-5.1,27.8v111.2C85.4,197.4,82.4,200.3,78.8,200.3z"/>
+	<path class="st5" d="M79.4,200.3H67.3v-4.4h12.1c1.2,0,2.2-1,2.2-2.2v-55.1c0-19.7,4.8-33,13.2-36.5c4.5-1.9,9.5-0.5,13.7,3.7
+		c10.3,10.3,26.2,19.5,31.5,19.5v4.4c-7.6,0-25.2-11.4-34.6-20.8c-1.7-1.7-5.1-4.3-8.9-2.8c-5.1,2.1-10.5,11.7-10.5,32.4v55.1
+		C86,197.4,83.1,200.3,79.4,200.3z"/>
+</g>
+</svg>

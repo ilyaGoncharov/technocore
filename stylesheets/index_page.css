@@ -91,6 +91,27 @@ ul.index_list {
 	padding-top: 50px;
 }
 
+.ind_btn {
+	margin-top: 40px;
+  background: transparent;
+  border: 1px solid #0F1F39;
+  border-radius: 2px;
+}
+
+#sertificate {
+	height: auto;
+	width: 80%;
+ 	background: #fff;  
+}
+
+.modal-content {
+
+}
+
+.modal-backdrop { 
+	background-color: #0F1F39; 
+	opacity: 0.8 !important;
+} 
 /*=============================================================================================== 
 .:. 
 ===============================================================================================*/

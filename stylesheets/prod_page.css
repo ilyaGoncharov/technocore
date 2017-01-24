@@ -22,6 +22,7 @@
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
 }
+
 #myNavbar li:nth-child(2):hover ~ #marker {
   -webkit-transform: translate(0px, 0);
   -moz-transform: translate(0px, 0);
@@ -155,5 +156,44 @@
 }
 
 .index_footer .container {
-    padding-right: 10px;
+  padding-right: 10px;
 }
+
+.prod_btn {
+  background: transparent;
+  border: 1px solid #0F1F39;
+  border-radius: 2px;
+}
+
+#Us_modal p {
+  padding: 0px;
+}
+
+.modal-open .modal {
+  overflow-y: overlay;
+}
+
+#Us_modal .modal-content{
+  padding: 40px;
+  height: 2000px;
+  background: #fff;  
+  z-index: 40000;
+}
+
+#Us_modal .modal-content div {
+
+}
+
+.tp_pics img{
+  height: 250px;
+  margin-bottom: 40px ;
+}
+
+.modal_space {
+  margin-bottom: 30px;
+}
+
+.modal-backdrop { 
+  background-color: #0F1F39; 
+  opacity: 0.8 !important;
+} 
