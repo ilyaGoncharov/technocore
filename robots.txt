@@ -1,0 +1,4 @@
+User-agent: *
+sitemap: http://www.texnokor.com/sitemap.xml
+host: http://www.texnokor.com/
+

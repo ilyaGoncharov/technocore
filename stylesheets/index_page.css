@@ -15,14 +15,13 @@ h1 {
 p.index_centered_text {
 	font-family: "Arial-Regular";
 	float: initial;
-	margin-top: 70px;
+	margin-top: 0px;
 	-webkit-font-smoothing: antialiased;
  	-moz-osx-font-smoothing: grayscale; 
 }
 
 .jumbotron {
 	height: 500px;
-	
 	margin-bottom: 0px;
 	background-image: url('inpics/main_photo.jpg');
 	background-size: 100% auto;
@@ -43,8 +42,8 @@ p.index_centered_text {
 
 .jumbotron h1,
 .jumbotron p {
-	position: absolute;
-	width: 70%;
+	position: relative;
+	width: 100%;
 	z-index: 3;
 	color: #fff;
 }
@@ -104,8 +103,18 @@ ul.index_list {
  	background: #transparent;  
 }
 
-.modal-content {
+.sertfc-dialog {
+	width: 1000px;
+	padding: 30px;
+}
 
+.modal-content {
+	background: #fff;
+	height: 1500px;
+}
+
+.sertfc-dialog .modal-content div {
+	padding: 25px;
 }
 
 .modal-backdrop { 
