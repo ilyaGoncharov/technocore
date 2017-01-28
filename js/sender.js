@@ -23,16 +23,18 @@ var $contactForm = $('#ff');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
-		url: 'https://formspree.io/info@texnokor.ru',
+		url: 'https://formspree.io/info@texnokor.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
 		beforeSend: function() {
+
 			$contactForm.append('<div class="alert alert--loading">Отправляю… [Sending...]</div>');
 		},
 		success: function(data) {
 			$contactForm.find('.alert--loading').hide();
 			$contactForm.append('<div class="alert alert--success">Cообщение отправлено! [Message sent!]</div>');
+			$('#feedbackContainer').modal('hide');
 		},
 		error: function(err) {
 			$contactForm.find('.alert--loading').hide();

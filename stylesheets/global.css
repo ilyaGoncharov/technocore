@@ -2887,3 +2887,7 @@ footer {
     width: 100% !important;
     margin-bottom: 10px !important;
 }
+
+.alert {
+    display: inline-block;
+  }
